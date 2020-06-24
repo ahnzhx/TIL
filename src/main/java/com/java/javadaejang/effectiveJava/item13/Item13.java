@@ -1,4 +1,4 @@
-package com.java.javadaejang.effectiveJava;
+package com.java.javadaejang.effectiveJava.item13;
 
 public class Item13 implements Cloneable{
     private String phoneNumber = "phoneNumber 123456";
@@ -16,6 +16,7 @@ public class Item13 implements Cloneable{
     @Override
     protected Object clone() throws CloneNotSupportedException {
 
-        return super.clone();
+//        return super.clone();
+        return new Item13();
     }
 }

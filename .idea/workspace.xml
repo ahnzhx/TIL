@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/Item13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/RunItem13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/Masulsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/inflearnJava/Masulsa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/Moim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/inflearnJava/Moim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/Moja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/inflearnJava/Moja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/java/javadaejang/MoimTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/javadaejang/inflearnJava/MoimTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/javadaejang/Masulsa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/javadaejang/Moim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/javadaejang/Moja.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/java/javadaejang/MoimTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/Item13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Item13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/RunItem13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/RunItem13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/javadaejang/effectiveJava/Item13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/javadaejang/effectiveJava/RunItem13.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,24 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/site/jacoco/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/inflearnJava/Moja.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,10 +33,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/Item13.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Item13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="300">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="e#231#232#0" expanded="true" />
                 <element signature="e#265#266#0" expanded="true" />
@@ -70,11 +47,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/RunItem13.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/RunItem13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="45">
+              <caret line="3" column="78" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/HashTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="29" />
+              <folding>
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="221" column="4" selection-start-line="221" selection-start-column="4" selection-end-line="221" selection-end-column="4" />
+            <state relative-caret-position="314">
+              <caret line="218" column="22" selection-start-line="218" selection-start-column="22" selection-end-line="218" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -91,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Cloneable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            <state relative-caret-position="402">
+              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -134,6 +138,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>clone</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -151,6 +160,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/Item13.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/RunItem13.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Item13.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/RunItem13.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Stack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/HashTable.java" />
       </list>
     </option>
   </component>
@@ -237,7 +250,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
-              <item name="effectiveJava" type="462c0819:PsiDirectoryNode" />
+              <item name="item13" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
@@ -277,7 +290,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592978622385" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592986102154" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -324,11 +337,11 @@
       </method>
     </configuration>
     <configuration name="RunItem13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.javadaejang.effectiveJava.RunItem13" />
+      <option name="MAIN_CLASS_NAME" value="com.java.javadaejang.effectiveJava.item13.RunItem13" />
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.javadaejang.effectiveJava.*" />
+          <option name="PATTERN" value="com.java.javadaejang.effectiveJava.item13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -436,11 +449,19 @@
       <configuration name="MoimTest.isFull" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1036" y="23" width="876" height="961" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27644232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27644232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -449,11 +470,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -476,13 +497,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/Item13.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Item13.java</url>
           <line>13</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/Item13.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Item13.java</url>
           <line>8</line>
           <properties />
           <option name="timeStamp" value="3" />
@@ -525,20 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Cloneable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="221" column="4" selection-start-line="221" selection-start-column="4" selection-end-line="221" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/java/javadaejang/inflearnJava/MoimTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -560,10 +567,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/Item13.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Cloneable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="402">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="218" column="22" selection-start-line="218" selection-start-column="22" selection-end-line="218" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/RunItem13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="78" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Item13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="e#231#232#0" expanded="true" />
             <element signature="e#265#266#0" expanded="true" />
@@ -573,10 +601,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/RunItem13.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="352">
+          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/HashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
