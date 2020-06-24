@@ -1,4 +1,4 @@
-package com.java.javadaejang;
+package com.java.javadaejang.inflearnJava;
 
 public class Moim {
     int maxNumberOfAttendees;

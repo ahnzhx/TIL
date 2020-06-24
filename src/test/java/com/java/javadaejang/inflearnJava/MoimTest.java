@@ -1,9 +1,8 @@
-package com.java.javadaejang;
+package com.java.javadaejang.inflearnJava;
 
+import com.java.javadaejang.inflearnJava.Moim;
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class MoimTest {
     @Test
