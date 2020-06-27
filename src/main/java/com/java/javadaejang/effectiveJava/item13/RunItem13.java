@@ -10,5 +10,6 @@ public class RunItem13 {
         Stack stack = new Stack();
         // stack이 아니고 item13이 반환됨.
         System.out.println(stack.clone().getClass());
+
     }
 }
