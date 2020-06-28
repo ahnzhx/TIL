@@ -5,6 +5,9 @@ public class RunItem13 {
 //        Item13 item13 = new Item13();
 //        System.out.println("original name: " + item13.getName());
 //        Item13 item13Cloned = (Item13) item13.clone();
+//        System.out.pri= new Item13();
+//        System.out.println("original name: " + item13.getName());
+//        Item13 item13Cloned = (Item13) item13.clone();
 //        System.out.println("cloned name: "+ item13Cloned.getName());
 
         Stack stack = new Stack();

@@ -35,15 +35,16 @@ public class Stack extends Item13{
         return result;
     }
 
-//    @Override
-//    protected Stack clone() throws CloneNotSupportedException {
-//        Stack result = (Stack) super.clone();
-//        result.elements = elements.clone();
-//        return result;
-//    }
-
+    //TODO:    설명추가
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone() ;
+    protected Stack clone() throws CloneNotSupportedException {
+        Stack result = (Stack) super.clone();
+        result.elements = elements.clone();
+        return result;
     }
+
+//    @Override
+//    protected Object clone() throws CloneNotSupportedException {
+//        return super.clone() ;
+//    }
 }
