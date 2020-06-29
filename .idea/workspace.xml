@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/IsArrayCopyIsDeepCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/javadaejang/effectiveJava/item13/IsArrayCopyIsDeepCopyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/RunItem13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/RunItem13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/javadaejang/effectiveJava/item13/RunItem13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/javadaejang/effectiveJava/item13/RunItem13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/javadaejang/effectiveJava/item13/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/javadaejang/effectiveJava/item13/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/java/javadaejang/effectiveJava/item13/SubTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/java/javadaejang/effectiveJava/item13/SubTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Sub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/java/javadaejang/effectiveJava/item13/SubTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/javadaejang/effectiveJava/item13/SubTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,10 +20,10 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Item13.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Sub.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
-                  <caret line="2" column="19" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -32,8 +31,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Sup.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
                   <folding>
                     <element signature="e#126#127#0" expanded="true" />
                     <element signature="e#161#162#0" expanded="true" />
@@ -44,29 +43,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Sub.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/RunItem13.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/java/javadaejang/effectiveJava/item13/SubTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="20" selection-start-line="20" selection-end-line="20" />
+                <state relative-caret-position="270">
+                  <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -74,11 +55,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Stack.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="477">
-                  <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+                <state relative-caret-position="339">
+                  <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#286#287#0" expanded="true" />
@@ -89,9 +70,36 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/IsArrayCopyIsDeepCopy.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#218#219#0" expanded="true" />
+                    <element signature="e#250#251#0" expanded="true" />
+                    <element signature="e#288#289#0" expanded="true" />
+                    <element signature="e#323#324#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/java/javadaejang/effectiveJava/item13/IsArrayCopyIsDeepCopyTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="88" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2700">
+                <state relative-caret-position="792">
                   <caret line="205" column="64" selection-start-line="205" selection-start-column="57" selection-end-line="205" selection-end-column="64" />
                 </state>
               </provider>
@@ -131,8 +139,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/java/javadaejang/effectiveJava/item13/SubTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -178,10 +186,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Item13.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/HashTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Sup.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/java/javadaejang/effectiveJava/item13/SubTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Sub.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/RunItem13.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Stack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/IsArrayCopyIsDeepCopy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/java/javadaejang/effectiveJava/item13/IsArrayCopyIsDeepCopyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/java/javadaejang/effectiveJava/item13/SubTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Sub.java" />
       </list>
     </option>
   </component>
@@ -222,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,6 +254,30 @@
               <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
+              <item name="item13" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
@@ -280,11 +313,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593320521776" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593393108797" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -344,17 +378,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoimTest.isFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsArrayCopyIsDeepCopyTest.isDeepCopy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.javadaejang.inflearnJava.*" />
+          <option name="PATTERN" value="com.java.javadaejang.effectiveJava.item13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.java.javadaejang.inflearnJava" />
-      <option name="MAIN_CLASS_NAME" value="com.java.javadaejang.inflearnJava.MoimTest" />
-      <option name="METHOD_NAME" value="isFull" />
+      <option name="PACKAGE_NAME" value="com.java.javadaejang.effectiveJava.item13" />
+      <option name="MAIN_CLASS_NAME" value="com.java.javadaejang.effectiveJava.item13.IsArrayCopyIsDeepCopyTest" />
+      <option name="METHOD_NAME" value="isDeepCopy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -451,10 +485,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SubTest.testClone" />
+        <item itemvalue="JUnit.IsArrayCopyIsDeepCopyTest.isDeepCopy" />
         <item itemvalue="Application.RunItem13" />
         <item itemvalue="JUnit.SubTest" />
         <item itemvalue="Application.Masulsa" />
-        <item itemvalue="JUnit.MoimTest.isFull" />
       </list>
     </recent_temporary>
   </component>
@@ -472,16 +506,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoimTest_isFull - 2020.06.09 at 10h 57m 48s.xml">
-      <configuration name="MoimTest.isFull" configurationId="JUnit" />
+    <history-entry file="IsArrayCopyIsDeepCopyTest_isDeepCopy - 2020.06.29 at 09h 46m 28s.xml">
+      <configuration name="IsArrayCopyIsDeepCopyTest.isDeepCopy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubTest - 2020.06.27 at 09h 11m 11s.xml">
-      <configuration name="SubTest" configurationId="JUnit" />
+    <history-entry file="IsArrayCopyIsDeepCopyTest_isDeepCopy - 2020.06.29 at 09h 46m 32s.xml">
+      <configuration name="IsArrayCopyIsDeepCopyTest.isDeepCopy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubTest_testClone - 2020.06.27 at 09h 11m 27s.xml">
-      <configuration name="SubTest.testClone" configurationId="JUnit" />
+    <history-entry file="IsArrayCopyIsDeepCopyTest_isDeepCopy - 2020.06.29 at 09h 46m 43s.xml">
+      <configuration name="IsArrayCopyIsDeepCopyTest.isDeepCopy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubTest_testClone - 2020.06.27 at 14h 22m 20s.xml">
+    <history-entry file="IsArrayCopyIsDeepCopyTest_isDeepCopy - 2020.06.29 at 09h 46m 45s.xml">
+      <configuration name="IsArrayCopyIsDeepCopyTest.isDeepCopy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsArrayCopyIsDeepCopyTest_isDeepCopy - 2020.06.29 at 09h 46m 47s.xml">
+      <configuration name="IsArrayCopyIsDeepCopyTest.isDeepCopy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsArrayCopyIsDeepCopyTest_isDeepCopy - 2020.06.29 at 09h 47m 27s.xml">
+      <configuration name="IsArrayCopyIsDeepCopyTest.isDeepCopy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsArrayCopyIsDeepCopyTest_isDeepCopy - 2020.06.29 at 09h 49m 47s.xml">
+      <configuration name="IsArrayCopyIsDeepCopyTest.isDeepCopy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsArrayCopyIsDeepCopyTest_isDeepCopy - 2020.06.29 at 09h 50m 14s.xml">
+      <configuration name="IsArrayCopyIsDeepCopyTest.isDeepCopy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsArrayCopyIsDeepCopyTest_isDeepCopy - 2020.06.29 at 09h 50m 38s.xml">
+      <configuration name="IsArrayCopyIsDeepCopyTest.isDeepCopy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubTest_testClone - 2020.06.29 at 09h 59m 48s.xml">
       <configuration name="SubTest.testClone" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -496,8 +548,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="440" y="23" width="1240" height="961" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2090301" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21237458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,8 +559,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39930955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
@@ -529,7 +582,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14792176" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21237458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -538,8 +591,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39930955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
@@ -625,37 +678,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Sup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Sub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/RunItem13.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="205" column="64" selection-start-line="205" selection-start-column="57" selection-end-line="205" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -682,8 +708,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="339">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#286#287#0" expanded="true" />
@@ -692,10 +718,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="205" column="64" selection-start-line="205" selection-start-column="57" selection-end-line="205" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/java/javadaejang/effectiveJava/item13/IsArrayCopyIsDeepCopyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="88" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/IsArrayCopyIsDeepCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Sup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/javadaejang/effectiveJava/item13/Sub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/java/javadaejang/effectiveJava/item13/SubTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

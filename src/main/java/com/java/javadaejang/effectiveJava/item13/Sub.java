@@ -4,7 +4,7 @@ public class Sub extends Sup {
     String temp;
     @Override
     public void overrideMe() {
-        System.out.println("sub mehtod");
+        System.out.println("sub method");
         System.out.println(temp);
         type = "sub";
     }
