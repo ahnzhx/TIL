@@ -15,7 +15,7 @@ public class Masulsa {
         ClassLoader classLoader = Masulsa.class.getClassLoader();
         TypePool typePool = TypePool.Default.of(classLoader);
 
-//        new ByteBuddy().redefine(typePool.describe(("com.java.inflearnJava.Moj))
+//        new ByteBuddy().redefine(typePool.describe(("com.java.inflearnJava.Moja))
 //                       .method(named("pullOut"))
 //                       .intercept(FixedValue.value("Rabbit!"))
 //        .make().saveIn(new File("/Users/sohyunahn/Downloads/javadaejang/target/classes/"));
