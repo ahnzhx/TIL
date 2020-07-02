@@ -1,16 +1,24 @@
 package com.java.inflearnJava.reflection;
 
+@MyAnnotation
 public class Book {
+
     private static String B = "BOOK";
+
     private static final String C = "BOOK";
 
+    @MyAnnotation
     private String a = "a";
+
+    @MyAnnotation
     public String d = "d";
+
     protected  String e = "e";
 
     public Book() {
 
     }
+
 
     public Book(String a, String d, String e) {
         this.a = a;

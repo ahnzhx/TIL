@@ -1,5 +1,6 @@
 package com.java.inflearnJava.reflection;
 
+import java.lang.annotation.Annotation;
 import java.util.Arrays;
 
 public class App {
@@ -26,5 +27,18 @@ public class App {
                 e.printStackTrace();
             }
         });
+
+        Arrays.stream(Book.class.getAnnotations()).forEach(System.out::println);
+
+        Arrays.stream(Book.class.getDeclaredFields()).forEach(f->{
+            Arrays.stream(f.getAnnotations()).forEach(a->{
+                if(a instanceof MyAnnotation){
+                    MyAnnotation myAnnotation = (MyAnnotation) a;
+                    System.out.println(myAnnotation.value());
+                    System.out.println(myAnnotation.number());
+                }
+            });
+        });
+
     }
 }
