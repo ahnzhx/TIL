@@ -1,5 +1,7 @@
 package com.java.inflearnJava.reflection;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.annotation.Annotation;
 import java.util.Arrays;
 
@@ -40,5 +42,28 @@ public class App {
             });
         });
 
+        
+        Class<?> bookClass = Class.forName("com.java.inflearnJava.reflection.Book");
+        // getConstructor의 parameter에 nulld을 주면 기본 생성자를 만든다. 
+        Constructor<?> constructor = bookClass.getConstructor(null);  // String.class도 가능하다.
+        Book book = (book) constructor.newInstance();
+        
+        Field a = Book.class.getDeclaredField("A");
+        System.out.println(a.get(null));
+        a.set(null, "AAAAA");
+        System.out.println(a.get(null));
+        
+        Field b = Book.class.getDeclaredField("B");
+        b.setAccessible(true); // private에 접근 가능하도록 한다. 
+        System.out.println(b.get(book)); // book 안에 있는 field B를 가져오는 것이다.
+        b.set(book, "BBBBB"); // book 필드 안에 있는 field B의 값을 "BBBBB"로 바꾼다. 
+        
+        Method c = Book.class.getDeclaredMethod("c");
+        c.setAccessible(true);
+        c.invoke(book);
+        
+        Method sum = Book.class.getDeclaredMethod("sum", int.class, int.class);
+        int invoke = (int) sum.invoke(book, 1, 2);
+        System.out.println(sum.get(invole));
     }
 }
