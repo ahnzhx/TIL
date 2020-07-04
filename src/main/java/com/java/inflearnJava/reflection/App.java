@@ -1,15 +1,17 @@
 package com.java.inflearnJava.reflection;
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.annotation.Annotation;
+import java.lang.reflect.Method;
 import java.util.Arrays;
 
 public class App {
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException, IllegalAccessException, InvocationTargetException, InstantiationException, NoSuchMethodException {
         Class<Book> bookClass = Book.class;
 
-        Book book = new Book();
+        Book book = new Book("B");
         Class<? extends Book> aClass = book.getClass();
 
         Class.forName("com.java.inflearnJava.reflection.Book");
@@ -43,10 +45,10 @@ public class App {
         });
 
         
-        Class<?> bookClass = Class.forName("com.java.inflearnJava.reflection.Book");
+        Class<?> bookClass2 = Class.forName("com.java.inflearnJava.reflection.Book");
         // getConstructor의 parameter에 nulld을 주면 기본 생성자를 만든다. 
         Constructor<?> constructor = bookClass.getConstructor(null);  // String.class도 가능하다.
-        Book book = (book) constructor.newInstance();
+        Book book2 = (Book) constructor.newInstance();
         
         Field a = Book.class.getDeclaredField("A");
         System.out.println(a.get(null));
@@ -64,6 +66,6 @@ public class App {
         
         Method sum = Book.class.getDeclaredMethod("sum", int.class, int.class);
         int invoke = (int) sum.invoke(book, 1, 2);
-        System.out.println(sum.get(invole));
+        System.out.println(invoke);
     }
 }
