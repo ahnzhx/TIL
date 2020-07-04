@@ -1,39 +1,21 @@
 package com.java.inflearnJava.reflection;
 
-@MyAnnotation
+
 public class Book {
-
-    private static String B = "BOOK";
-
-    private static final String C = "BOOK";
-
-    @MyAnnotation
-    private String a = "a";
-
-    @MyAnnotation
-    public String d = "d";
-
-    protected  String e = "e";
-
-    public Book() {
-
+    public static String A = "A";
+    
+    private String B = "B";
+    
+    public Book(String b){
+        B = b;
     }
-
-
-    public Book(String a, String d, String e) {
-        this.a = a;
-        this.d = d;
-        this.e = e;
+    
+    public void c(){
+        System.out.println("C");
     }
-
-    private void f(){
-        System.out.println("F");
+    
+    public int sum(int left, int right){
+        return left+right;
     }
-
-    private void g(){
-        System.out.println("G");
-    }
-    public int h(){
-        return 100;
-    }
+         
 }
