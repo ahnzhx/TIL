@@ -9,6 +9,9 @@ public class Book {
     public Book(String b){
         B = b;
     }
+    public Book(){
+
+    }
     
     public void c(){
         System.out.println("C");
