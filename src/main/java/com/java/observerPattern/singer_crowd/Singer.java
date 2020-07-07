@@ -22,6 +22,6 @@ public class Singer extends Observable {
 
     public void releasedNewAlbum(String message){
         setChanged();
-        notifyObservers();
+        notifyObservers(message);
     }
 }
