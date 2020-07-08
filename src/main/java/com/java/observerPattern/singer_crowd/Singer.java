@@ -8,6 +8,7 @@ public class Singer extends Observable {
     private String name;
 
     public String getAlbum() {
+
         return album;
     }
 
