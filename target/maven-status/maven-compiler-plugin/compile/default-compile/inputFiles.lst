@@ -1,4 +1,5 @@
 /Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/observerPattern/pub_sub/Publisher.java
+/Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/inflearnJava/proxy/DefaultBookService.java
 /Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/observerPattern/Application.java
 /Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/effectiveJava/item17/Complex.java
 /Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/effectiveJava/item20/BeverageVending.java
@@ -21,7 +22,9 @@
 /Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/inflearnJava/reflection/MyInterface.java
 /Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/effectiveJava/item13/Stack.java
 /Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/inflearnJava/di/ContainerService.java
+/Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/inflearnJava/proxy/BookService.java
 /Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/observerPattern/pub_sub/Subscriber.java
+/Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/inflearnJava/proxy/Book.java
 /Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/effectiveJava/item13/HashTable.java
 /Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/inflearnJava/di/Inject.java
 /Users/sohyunahn/Downloads/javadaejang/src/main/java/com/java/inflearnJava/reflection/MyBook.java
