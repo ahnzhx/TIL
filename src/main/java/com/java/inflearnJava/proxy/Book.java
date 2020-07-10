@@ -1,6 +1,8 @@
 package com.java.inflearnJava.proxy;
 
+
 public class Book {
+    private Long id;
     private String name;
 
     public String getName() {

@@ -1,4 +1,8 @@
 package com.java.inflearnJava.proxy;
 
-public interface BookRepository{
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface BookRepository extends JpaRepository<Book, Long> {
 }
