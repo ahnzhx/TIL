@@ -34,7 +34,6 @@
 		<dependency>
 			<groupId>net.bytebuddy</groupId>
 			<artifactId>byte-buddy</artifactId>
-			<version>1.10.10</version>
 		</dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -72,6 +71,11 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>3.3.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
