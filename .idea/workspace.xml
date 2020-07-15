@@ -2,21 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item26/RawTypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/ClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/BookServiceClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/lombok/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/lombok/Moja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadaejang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javadaejang.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/java/inflearnJava/proxy/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/inflearnJava/proxy/BookServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/javadaejang.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/adapterPattern/MP3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/designPattern/adapterPattern/MP3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item24/MakingStaticMemberClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item24/MakingStaticMemberClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item24/NonStaticClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/javadaejang.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/java/inflearnJava/proxy/BookServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/java/inflearnJava/proxy/BookServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/adapterPattern/FormatAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/adapterPattern/MKV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/adapterPattern/MP3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/adapterPattern/MP4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/adapterPattern/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/adapterPattern/MediaPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/adapterPattern/MediaPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/observerPattern/Application$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/observerPattern/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/observerPattern/Button$OnClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/observerPattern/Button.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/observerPattern/pub_sub/Application$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/observerPattern/pub_sub/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/observerPattern/pub_sub/Publisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/observerPattern/pub_sub/Subscriber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/observerPattern/singer_crowd/App$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/observerPattern/singer_crowd/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/observerPattern/singer_crowd/Crowd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/observerPattern/singer_crowd/Singer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/HashTable$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/IsArrayCopyIsDeepCopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/Item13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/Sub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/Sup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item17/Complex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item17/ForwardingSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item20/AbstractVending.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item20/BeverageVending.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item20/Vending.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item23/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item23/Figure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item23/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item24/AnonymousClass$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item24/AnonymousClass$1LocalInnerClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item24/AnonymousClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item24/MakingStaticMemberClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item24/MySet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item25/Dessert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item25/Test$Dessert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item25/Test$Utensil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item25/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item25/Utensil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item26/RawTypeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/ClassLoaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/Masulsa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/MasulsaAgent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/Moim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/Moja.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/di/ContainerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/di/Inject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/proxy/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/proxy/BookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/proxy/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/proxy/BookServiceClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/proxy/BookServiceProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/proxy/DefaultBookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/reflection/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/reflection/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/reflection/MyAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/reflection/MyBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/inflearnJava/reflection/MyInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/rxJava/HelloWorld.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,18 +82,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item26/RawTypeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/ClassLoaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,8 +94,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="77" selection-end-column="21" />
+            <state relative-caret-position="370">
+              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/lombok/Moja.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/lombok/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -60,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/java/inflearnJava/proxy/BookServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+            <state relative-caret-position="600">
+              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/DefaultBookService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="105">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#142#143#0" expanded="true" />
@@ -85,14 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/BookServiceClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="75">
               <caret line="7" column="19" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="19" />
-              <folding>
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -100,7 +155,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/BookServiceProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="90">
               <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding>
                 <element signature="e#177#178#0" expanded="true" />
@@ -122,7 +177,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
+            <state relative-caret-position="1290">
               <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
             </state>
           </provider>
@@ -150,6 +205,7 @@
       <find>setcja</find>
       <find>subscribers</find>
       <find>byte</find>
+      <find>lombok</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,9 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/java/rxJava/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/observerPattern/Button.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/observerPattern/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/observerPattern/pub_sub/Subscriber.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/observerPattern/pub_sub/Publisher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/observerPattern/singer_crowd/Crowd.java" />
@@ -208,6 +261,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/BookServiceClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/BookService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/java/inflearnJava/proxy/BookServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/lombok/Member.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/lombok/Moja.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/lombok/App.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -248,6 +304,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,17 +356,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="inflearnJava" type="462c0819:PsiDirectoryNode" />
-              <item name="di" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="inflearnJava" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="lombok" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
@@ -349,17 +397,57 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="inflearnJava" type="462c0819:PsiDirectoryNode" />
               <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="compile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594704775299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594780758691" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -398,13 +486,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookServiceTest.making_proxy_without_interface_using_byteBuddy">
-    <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.inflearnJava.ClassLoaderTest" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.inflearnJava.lombok.App" />
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.inflearnJava.*" />
+          <option name="PATTERN" value="com.java.inflearnJava.lombok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -534,11 +622,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.BookServiceTest.making_proxy_without_interface_using_byteBuddy" />
         <item itemvalue="JUnit.BookServiceTest" />
         <item itemvalue="JUnit.BookServiceTest.making_proxy_without_interface_using_CGlib" />
         <item itemvalue="JUnit.BookServiceTest.di (1)" />
-        <item itemvalue="Application.ClassLoaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -598,9 +686,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="827" height="961" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23371647" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25287357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -609,12 +696,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32796317" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32796317" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39930955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32911393" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32796317" />
@@ -713,28 +800,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="370" selection-start-line="370" selection-end-line="370" />
-          <folding>
-            <element signature="e#2922#2923#0" expanded="true" />
-            <element signature="e#2966#2967#0" expanded="true" />
-            <element signature="e#10310#10449#0" expanded="true" />
-            <element signature="e#10448#10449#0" expanded="true" />
-            <element signature="e#11040#11204#0" expanded="true" />
-            <element signature="e#11203#11204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1042,17 +1107,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="180" column="7" lean-forward="true" selection-start-line="180" selection-start-column="7" selection-end-line="180" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="363" selection-start-line="363" selection-end-line="363" />
         </state>
       </provider>
     </entry>
@@ -1073,24 +1138,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/BookServiceProxy.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/java/inflearnJava/proxy/BookServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="600">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
           <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/DefaultBookService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="105">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#142#143#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/BookServiceClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/BookServiceProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1102,40 +1184,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="363" selection-start-line="363" selection-end-line="363" />
+        <state relative-caret-position="1290">
+          <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/BookServiceClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/lombok/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/java/inflearnJava/proxy/BookServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/lombok/Moja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="77" selection-end-column="21" />
+        <state relative-caret-position="370">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1197,6 +1270,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
