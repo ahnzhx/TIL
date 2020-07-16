@@ -24,6 +24,7 @@ com/java/designPattern/observerPattern/pub_sub/Application$1.class
 com/java/effectiveJava/item25/Test$Utensil.class
 com/java/designPattern/observerPattern/pub_sub/Publisher.class
 com/java/effectiveJava/item24/MySet.class
+com/java/inflearnJava/lombok/App.class
 com/java/effectiveJava/item20/BeverageVending.class
 com/java/designPattern/observerPattern/singer_crowd/App.class
 com/java/effectiveJava/item24/AnonymousClass$1LocalInnerClassTest.class
@@ -40,10 +41,13 @@ com/java/effectiveJava/item23/Figure.class
 com/java/designPattern/observerPattern/Button.class
 com/java/designPattern/adapterPattern/MP3.class
 com/java/inflearnJava/reflection/App.class
+com/java/effectiveJava/item28/VarArgsMethod.class
 com/java/designPattern/observerPattern/singer_crowd/App$1.class
 com/java/designPattern/adapterPattern/Main.class
+com/java/inflearnJava/lombok/MagicMoja.class
 com/java/inflearnJava/proxy/Book.class
 com/java/inflearnJava/di/ContainerService.class
+com/java/inflearnJava/lombok/Moja.class
 com/java/effectiveJava/item20/AbstractVending.class
 com/java/effectiveJava/item25/Test.class
 com/java/effectiveJava/item24/AnonymousClass$1.class
