@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ClientExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ServerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item31/BoundedWildCardExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item31/Chooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/effectiveJava/item31/BoundedWildCardExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/functionalProgramming/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/functionalProgramming/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/functionalProgramming/socket/ServerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/functionalProgramming/socket/ServerExample.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/App.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ServerExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="117">
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,10 +30,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ServerExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item31/BoundedWildCardExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item31/Chooser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/java/effectiveJava/item31/BoundedWildCardExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,40 +65,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/net/ServerSocket.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="518" column="12" lean-forward="true" selection-start-line="518" selection-start-column="12" selection-end-line="518" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ClientExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/ToLongBiFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/FunctionalInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+            <state relative-caret-position="201">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -145,6 +139,8 @@
       <find>subscribers</find>
       <find>byte</find>
       <find>lombok</find>
+      <find>addAll</find>
+      <find>popAll</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,11 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/java/inflearnJava/di/ContainerServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/di/ContainerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/observerPattern/singer_crowd/Singer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/reflection/Annotation.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java/inflearnJava/reflection/Book.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/java/inflearnJava/di/BookService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/java/inflearnJava/di/DefaultBookService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/java/inflearnJava/di/BookServiceTest.java" />
@@ -204,6 +195,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/SocketExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ClientExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ServerExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item31/Stack.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/java/effectiveJava/item31/StackTestTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item31/StackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item31/Chooser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item31/BoundedWildCardExample.java" />
       </list>
     </option>
   </component>
@@ -230,10 +226,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="843" />
     <option name="y" value="23" />
-    <option name="width" value="827" />
-    <option name="height" value="961" />
+    <option name="width" value="837" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -243,7 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -286,6 +282,25 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="effectiveJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javadaejang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="effectiveJava" type="462c0819:PsiDirectoryNode" />
+              <item name="item31" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javadaejang" type="b2602c69:ProjectViewProjectNode" />
@@ -353,10 +368,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595222134410" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595540957858" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -368,6 +384,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.java.effectiveJava.item31" />
       <recent name="com.java.inflearnJava.proxy" />
       <recent name="com.java.javadaejang.effectiveJava.item13" />
       <recent name="com.java.javadaejang" />
@@ -395,7 +412,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientExample">
+  <component name="RunManager" selected="JUnit.BoundedWildCardExample.생산자테스트">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.inflearnJava.lombok.App" />
       <module name="javadaejang" />
@@ -461,17 +478,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookServiceTest.making_proxy_without_interface_using_byteBuddy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoundedWildCardExample.생산자테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.inflearnJava.proxy.*" />
+          <option name="PATTERN" value="com.java.effectiveJava.item31.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.java.inflearnJava.proxy" />
-      <option name="MAIN_CLASS_NAME" value="com.java.inflearnJava.proxy.BookServiceTest" />
-      <option name="METHOD_NAME" value="making_proxy_without_interface_using_byteBuddy" />
+      <option name="PACKAGE_NAME" value="com.java.effectiveJava.item31" />
+      <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.item31.BoundedWildCardExample" />
+      <option name="METHOD_NAME" value="생산자테스트" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -537,11 +554,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BoundedWildCardExample.생산자테스트" />
         <item itemvalue="Application.ClientExample" />
         <item itemvalue="Application.ServerExample" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.VarArgsMethod" />
-        <item itemvalue="JUnit.BookServiceTest.making_proxy_without_interface_using_byteBuddy" />
       </list>
     </recent_temporary>
   </component>
@@ -559,9 +576,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookServiceTest_making_proxy_without_interface_using_byteBuddy - 2020.07.14 at 14h 24m 45s.xml">
-      <configuration name="BookServiceTest.making_proxy_without_interface_using_byteBuddy" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookServiceTest_making_proxy_without_interface_using_byteBuddy - 2020.07.14 at 14h 27m 08s.xml">
       <configuration name="BookServiceTest.making_proxy_without_interface_using_byteBuddy" configurationId="JUnit" />
     </history-entry>
@@ -589,6 +603,9 @@
     <history-entry file="BookServiceTest_making_proxy_without_interface_using_byteBuddy - 2020.07.14 at 14h 32m 42s.xml">
       <configuration name="BookServiceTest.making_proxy_without_interface_using_byteBuddy" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StackTestTest_생산자테스트 - 2020.07.23 at 14h 05m 05s.xml">
+      <configuration name="StackTestTest.생산자테스트" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,10 +617,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="23" width="1638" height="1027" extended-state="6" />
+    <frame x="843" y="23" width="837" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2672522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26481715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -612,15 +629,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.315508" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.371123" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.315508" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.371123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32796317" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32796317" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3272727" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3272727" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32911393" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32796317" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3272727" />
       <window_info anchor="bottom" id="Anonymous Apex" order="11" />
       <window_info anchor="bottom" id="Log Analyzer" order="12" />
       <window_info anchor="bottom" id="SOQL Query" order="13" />
@@ -716,52 +733,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item23/Figure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/java/inflearnJava/proxy/BookRepositoryTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/java/inflearnJava/di/BookServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item25/Dessert.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item25/Utensil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE.jar!/org/springframework/util/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java/inflearnJava/proxy/BookRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1026,6 +997,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7260">
+          <caret line="518" column="12" selection-start-line="518" selection-start-column="12" selection-end-line="518" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ClientExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/ToLongBiFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1075,39 +1073,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="518" column="12" lean-forward="true" selection-start-line="518" selection-start-column="12" selection-end-line="518" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ClientExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ServerExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        <state relative-caret-position="117">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item13/Item13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item13/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/java/effectiveJava/item31/BoundedWildCardExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item31/Chooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item31/BoundedWildCardExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
           </folding>
         </state>
       </provider>
