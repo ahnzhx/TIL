@@ -1,4 +1,4 @@
-package com.java.effectiveJava.item31;
+package com.java.effectiveJava.item32;
 
 import org.junit.Test;
 
