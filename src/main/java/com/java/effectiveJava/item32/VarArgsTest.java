@@ -1,5 +1,7 @@
 package com.java.effectiveJava.item32;
 
+import org.springframework.core.serializer.DefaultSerializer;
+
 import java.util.List;
 
 public class VarArgsTest {
@@ -7,7 +9,7 @@ public class VarArgsTest {
         List<Integer> intList = List.of(42);
         Object[] objects = stringLists;
         objects[0] = intList;
-        String s= stringLists[0].get(0); // 왜 얘가 int로 변하지?
+        String s= stringLists[0].get(0); // intList와 같은 주소를 바라보고 있기 때문에 생기는 오류
 
     }
 
@@ -18,4 +20,5 @@ public class VarArgsTest {
         dangerous(stringList1, stringList2);
 
     }
+
 }
