@@ -39,9 +39,7 @@ public class Sample {
     }
 
     public void handlingRepeatableAnnotation(){
-        if(m.isAnnotationPresent(ExceptionTest.class) || m.isAnnotation(ExceptionTestContainer.class)){
-            // ...
-        }
+
     }
 
     public static void main(String[] args) {
