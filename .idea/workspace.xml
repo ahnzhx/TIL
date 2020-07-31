@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item38/BasicOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item38/ExtendedOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item38/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item38/Peach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item38/UsingExtendedOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javadaejang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javadaejang.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/javadaejang.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/javadaejang.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item37/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item37/Plant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +48,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -73,6 +63,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -96,7 +87,7 @@
       <recent name="com.java.inflearnJava.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UsingExtendedOperation">
+  <component name="RunManager" selected="Application.Plant">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,19 +146,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.functionalProgramming.App" />
-      <module name="javadaejang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.functionalProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ClientExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.functionalProgramming.socket.ClientExample" />
       <module name="javadaejang" />
@@ -181,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.functionalProgramming.socket.ServerExample" />
+    <configuration name="Plant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.item37.Plant" />
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.functionalProgramming.socket.*" />
+          <option name="PATTERN" value="com.java.effectiveJava.item37.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Plant" />
         <item itemvalue="Application.UsingExtendedOperation" />
         <item itemvalue="Application.VarArgsTest" />
         <item itemvalue="JUnit.BoundedWildCardExample.생산자테스트" />
         <item itemvalue="Application.ClientExample" />
-        <item itemvalue="Application.ServerExample" />
       </list>
     </recent_temporary>
   </component>
@@ -259,67 +237,72 @@
       <workItem from="1595944384489" duration="265000" />
       <workItem from="1595977933247" duration="180000" />
       <workItem from="1595979355999" duration="640000" />
-      <workItem from="1596067981583" duration="2914000" />
+      <workItem from="1596067981583" duration="4981000" />
+      <workItem from="1596159981592" duration="5500000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="BookServiceTest_making_proxy_without_interface_using_byteBuddy - 2020.07.14 at 14h 27m 08s.xml">
-      <configuration name="BookServiceTest.making_proxy_without_interface_using_byteBuddy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookServiceTest_making_proxy_without_interface_using_byteBuddy - 2020.07.14 at 14h 29m 00s.xml">
-      <configuration name="BookServiceTest.making_proxy_without_interface_using_byteBuddy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookServiceTest_making_proxy_without_interface_using_byteBuddy - 2020.07.14 at 14h 29m 07s.xml">
-      <configuration name="BookServiceTest.making_proxy_without_interface_using_byteBuddy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookServiceTest_making_proxy_without_interface_using_byteBuddy - 2020.07.14 at 14h 29m 18s.xml">
-      <configuration name="BookServiceTest.making_proxy_without_interface_using_byteBuddy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookServiceTest_making_proxy_without_interface_using_byteBuddy - 2020.07.14 at 14h 30m 05s.xml">
-      <configuration name="BookServiceTest.making_proxy_without_interface_using_byteBuddy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookServiceTest_making_proxy_without_interface_using_byteBuddy - 2020.07.14 at 14h 30m 25s.xml">
-      <configuration name="BookServiceTest.making_proxy_without_interface_using_byteBuddy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookServiceTest_making_proxy_without_interface_using_CGlib - 2020.07.14 at 14h 30m 45s.xml">
-      <configuration name="BookServiceTest.making_proxy_without_interface_using_CGlib" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookServiceTest - 2020.07.14 at 14h 32m 23s.xml">
-      <configuration name="BookServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookServiceTest_making_proxy_without_interface_using_byteBuddy - 2020.07.14 at 14h 32m 42s.xml">
-      <configuration name="BookServiceTest.making_proxy_without_interface_using_byteBuddy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTestTest_생산자테스트 - 2020.07.23 at 14h 05m 05s.xml">
-      <configuration name="StackTestTest.생산자테스트" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="849" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596072298245">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state x="849" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/43.23.1637.1027@43.23.1637.1027" timestamp="1596072298245" />
     <state x="674" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1596071423168">
       <screen x="43" y="23" width="1637" height="1027" />
     </state>
     <state x="674" y="247" key="#com.intellij.ide.util.MemberChooser/43.23.1637.1027@43.23.1637.1027" timestamp="1596071423168" />
-    <state x="561" y="198" key="SettingsEditor" timestamp="1595979501245">
+    <state width="929" height="313" key="GridCell.Tab.0.bottom" timestamp="1596165811642">
+      <screen x="44" y="23" width="1876" height="1057" />
+    </state>
+    <state width="929" height="313" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811642" />
+    <state width="819" height="262" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185125" />
+    <state width="929" height="313" key="GridCell.Tab.0.center" timestamp="1596165811641">
+      <screen x="44" y="23" width="1876" height="1057" />
+    </state>
+    <state width="929" height="313" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811641" />
+    <state width="819" height="262" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
+    <state width="929" height="313" key="GridCell.Tab.0.left" timestamp="1596165811641">
+      <screen x="44" y="23" width="1876" height="1057" />
+    </state>
+    <state width="929" height="313" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811641" />
+    <state width="819" height="262" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
+    <state width="929" height="313" key="GridCell.Tab.0.right" timestamp="1596165811641">
+      <screen x="44" y="23" width="1876" height="1057" />
+    </state>
+    <state width="929" height="313" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811641" />
+    <state width="819" height="262" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
+    <state width="929" height="313" key="GridCell.Tab.1.bottom" timestamp="1596165811643">
+      <screen x="44" y="23" width="1876" height="1057" />
+    </state>
+    <state width="929" height="313" key="GridCell.Tab.1.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811643" />
+    <state width="929" height="313" key="GridCell.Tab.1.center" timestamp="1596165811642">
+      <screen x="44" y="23" width="1876" height="1057" />
+    </state>
+    <state width="929" height="313" key="GridCell.Tab.1.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811642" />
+    <state width="929" height="313" key="GridCell.Tab.1.left" timestamp="1596165811642">
+      <screen x="44" y="23" width="1876" height="1057" />
+    </state>
+    <state width="929" height="313" key="GridCell.Tab.1.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811642" />
+    <state width="929" height="313" key="GridCell.Tab.1.right" timestamp="1596165811642">
+      <screen x="44" y="23" width="1876" height="1057" />
+    </state>
+    <state width="929" height="313" key="GridCell.Tab.1.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811642" />
+    <state x="203" y="280" key="SettingsEditor" timestamp="1596082160679">
       <screen x="43" y="23" width="1637" height="1027" />
     </state>
-    <state x="561" y="198" key="SettingsEditor/43.23.1637.1027@43.23.1637.1027" timestamp="1595979501245" />
+    <state x="203" y="280" key="SettingsEditor/43.23.1637.1027@43.23.1637.1027" timestamp="1596082160679" />
     <state x="383" y="157" key="SettingsEditor/44.23.1636.1027@44.23.1636.1027" timestamp="1595944640299" />
-    <state x="526" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1596070142089">
-      <screen x="43" y="23" width="1637" height="1027" />
+    <state x="1176" y="271" key="extract.method.dialog" timestamp="1596161433984">
+      <screen x="44" y="23" width="1876" height="1057" />
     </state>
+    <state x="1176" y="271" key="extract.method.dialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596161433984" />
+    <state x="598" y="257" width="768" height="696" key="search.everywhere.popup" timestamp="1596166688508">
+      <screen x="44" y="23" width="1876" height="1057" />
+    </state>
+    <state x="598" y="257" width="768" height="696" key="search.everywhere.popup/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596166688508" />
     <state x="526" y="250" width="670" height="676" key="search.everywhere.popup/43.23.1637.1027@43.23.1637.1027" timestamp="1596070142089" />
   </component>
   <component name="XDebuggerManager">
@@ -349,6 +332,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item32/VarArgsTest.java</url>
           <line>8</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item37/Plant.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
