@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item39/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item39/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item39/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item37/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item37/Plant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item37/Plant$LifeCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item37/Plant$LifeCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item37/Plant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item37/Plant.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +17,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="AnnotationType" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -71,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.java.effectiveJava.item39" />
       <recent name="com.java.effectiveJava.item31" />
       <recent name="com.java.inflearnJava.proxy" />
       <recent name="com.java.javadaejang.effectiveJava.item13" />
@@ -87,7 +92,7 @@
       <recent name="com.java.inflearnJava.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Plant">
+  <component name="RunManager" selected="Application.Sample">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,12 +151,12 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="ClientExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.functionalProgramming.socket.ClientExample" />
+    <configuration name="Plant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.item37.Plant" />
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.functionalProgramming.socket.*" />
+          <option name="PATTERN" value="com.java.effectiveJava.item37.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Plant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.item37.Plant" />
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.item39.Sample" />
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.effectiveJava.item37.*" />
+          <option name="PATTERN" value="com.java.effectiveJava.item39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,30 +190,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarArgsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.item32.VarArgsTest" />
+    <configuration name="SampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.effectiveJava.item32.*" />
+          <option name="PATTERN" value="com.java.effectiveJava.item39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.java.effectiveJava.item39" />
+      <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.item39.SampleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoundedWildCardExample.생산자테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SampleTest.m8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.effectiveJava.item32.*" />
+          <option name="PATTERN" value="com.java.effectiveJava.item39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.java.effectiveJava.item32" />
-      <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.item32.BoundedWildCardExample" />
-      <option name="METHOD_NAME" value="생산자테스트" />
+      <option name="PACKAGE_NAME" value="com.java.effectiveJava.item39" />
+      <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.item39.SampleTest" />
+      <option name="METHOD_NAME" value="m8" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sample" />
+        <item itemvalue="JUnit.SampleTest" />
+        <item itemvalue="JUnit.SampleTest.m8" />
         <item itemvalue="Application.Plant" />
         <item itemvalue="Application.UsingExtendedOperation" />
-        <item itemvalue="Application.VarArgsTest" />
-        <item itemvalue="JUnit.BoundedWildCardExample.생산자테스트" />
-        <item itemvalue="Application.ClientExample" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +245,7 @@
       <workItem from="1595977933247" duration="180000" />
       <workItem from="1595979355999" duration="640000" />
       <workItem from="1596067981583" duration="4981000" />
-      <workItem from="1596159981592" duration="5500000" />
+      <workItem from="1596159981592" duration="8490000" />
     </task>
     <servers />
   </component>
@@ -254,55 +261,59 @@
       <screen x="43" y="23" width="1637" height="1027" />
     </state>
     <state x="674" y="247" key="#com.intellij.ide.util.MemberChooser/43.23.1637.1027@43.23.1637.1027" timestamp="1596071423168" />
-    <state width="929" height="313" key="GridCell.Tab.0.bottom" timestamp="1596165811642">
+    <state width="929" height="262" key="GridCell.Tab.0.bottom" timestamp="1596170712165">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="313" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811642" />
+    <state width="929" height="262" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596170712165" />
     <state width="819" height="262" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185125" />
-    <state width="929" height="313" key="GridCell.Tab.0.center" timestamp="1596165811641">
+    <state width="929" height="262" key="GridCell.Tab.0.center" timestamp="1596170712164">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="313" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811641" />
+    <state width="929" height="262" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596170712164" />
     <state width="819" height="262" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="929" height="313" key="GridCell.Tab.0.left" timestamp="1596165811641">
+    <state width="929" height="262" key="GridCell.Tab.0.left" timestamp="1596170712164">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="313" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811641" />
+    <state width="929" height="262" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596170712164" />
     <state width="819" height="262" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="929" height="313" key="GridCell.Tab.0.right" timestamp="1596165811641">
+    <state width="929" height="262" key="GridCell.Tab.0.right" timestamp="1596170712165">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="313" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811641" />
+    <state width="929" height="262" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596170712165" />
     <state width="819" height="262" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="929" height="313" key="GridCell.Tab.1.bottom" timestamp="1596165811643">
+    <state width="929" height="313" key="GridCell.Tab.1.bottom" timestamp="1596170541116">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="313" key="GridCell.Tab.1.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811643" />
-    <state width="929" height="313" key="GridCell.Tab.1.center" timestamp="1596165811642">
+    <state width="929" height="313" key="GridCell.Tab.1.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596170541116" />
+    <state width="929" height="313" key="GridCell.Tab.1.center" timestamp="1596170541115">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="313" key="GridCell.Tab.1.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811642" />
-    <state width="929" height="313" key="GridCell.Tab.1.left" timestamp="1596165811642">
+    <state width="929" height="313" key="GridCell.Tab.1.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596170541115" />
+    <state width="929" height="313" key="GridCell.Tab.1.left" timestamp="1596170541115">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="313" key="GridCell.Tab.1.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811642" />
-    <state width="929" height="313" key="GridCell.Tab.1.right" timestamp="1596165811642">
+    <state width="929" height="313" key="GridCell.Tab.1.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596170541115" />
+    <state width="929" height="313" key="GridCell.Tab.1.right" timestamp="1596170541116">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="313" key="GridCell.Tab.1.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596165811642" />
+    <state width="929" height="313" key="GridCell.Tab.1.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596170541116" />
     <state x="203" y="280" key="SettingsEditor" timestamp="1596082160679">
       <screen x="43" y="23" width="1637" height="1027" />
     </state>
     <state x="203" y="280" key="SettingsEditor/43.23.1637.1027@43.23.1637.1027" timestamp="1596082160679" />
     <state x="383" y="157" key="SettingsEditor/44.23.1636.1027@44.23.1636.1027" timestamp="1595944640299" />
+    <state x="1207" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596170343649">
+      <screen x="44" y="23" width="1876" height="1057" />
+    </state>
+    <state x="1207" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596170343649" />
     <state x="1176" y="271" key="extract.method.dialog" timestamp="1596161433984">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
     <state x="1176" y="271" key="extract.method.dialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596161433984" />
-    <state x="598" y="257" width="768" height="696" key="search.everywhere.popup" timestamp="1596166688508">
+    <state x="598" y="257" width="768" height="696" key="search.everywhere.popup" timestamp="1596169776386">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state x="598" y="257" width="768" height="696" key="search.everywhere.popup/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596166688508" />
+    <state x="598" y="257" width="768" height="696" key="search.everywhere.popup/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596169776386" />
     <state x="526" y="250" width="670" height="676" key="search.everywhere.popup/43.23.1637.1027@43.23.1637.1027" timestamp="1596070142089" />
   </component>
   <component name="XDebuggerManager">
