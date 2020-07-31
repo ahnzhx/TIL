@@ -3,6 +3,7 @@ package com.java.tdd;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class DollarExample {
     @Test
@@ -14,4 +15,8 @@ public class DollarExample {
         assertEquals(15, five.amount);
     }
 
+    @Test
+    public void testEquality(){
+        assertTrue(new Dollar(5).equals(new Dollar(5)));
+    }
 }
