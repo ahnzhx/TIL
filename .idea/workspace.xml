@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/tdd/Dollar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/tdd/chapter1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item39/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item39/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tdd/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tdd/Dollar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <recent name="com.java.inflearnJava.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sample">
+  <component name="RunManager" selected="JUnit.chapter1.testMultiplication">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,19 +175,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsingExtendedOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.item38.UsingExtendedOperation" />
-      <module name="javadaejang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.effectiveJava.item38.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
@@ -221,13 +206,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="chapter1.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javadaejang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tdd.chapter1" />
+      <option name="METHOD_NAME" value="testMultiplication" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.chapter1.testMultiplication" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="JUnit.SampleTest" />
         <item itemvalue="JUnit.SampleTest.m8" />
         <item itemvalue="Application.Plant" />
-        <item itemvalue="Application.UsingExtendedOperation" />
       </list>
     </recent_temporary>
   </component>
