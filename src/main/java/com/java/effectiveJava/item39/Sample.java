@@ -31,11 +31,17 @@ public class Sample {
     public static void m8(){ // 실패(예외가 발생하지 않음)
     }
 
-    @ExceptionTest({IndexOutOfBoundsException.class,
-            NullPointerException.class})
+    @ExceptionTest(IndexOutOfBoundsException.class)
+    @ExceptionTest(NullPointerException.class)
     public static void doublyBad(){ // 성공해야 한다.
         List<String> list = new ArrayList<>();
         list.add(5, null);
+    }
+
+    public void handlingRepeatableAnnotation(){
+        if(m.isAnnotationPresent(ExceptionTest.class) || m.isAnnotation(ExceptionTestContainer.class)){
+            // ...
+        }
     }
 
     public static void main(String[] args) {
