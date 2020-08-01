@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tdd/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tdd/Dollar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/java/tdd/DollarExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/tdd/DollarExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -272,25 +270,25 @@
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
     <state x="1172" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596234934910" />
-    <state width="929" height="262" key="GridCell.Tab.0.bottom" timestamp="1596237293175">
+    <state width="929" height="262" key="GridCell.Tab.0.bottom" timestamp="1596237517827">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="262" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237293175" />
+    <state width="929" height="262" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237517827" />
     <state width="819" height="262" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185125" />
-    <state width="929" height="262" key="GridCell.Tab.0.center" timestamp="1596237293174">
+    <state width="929" height="262" key="GridCell.Tab.0.center" timestamp="1596237517826">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="262" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237293174" />
+    <state width="929" height="262" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237517826" />
     <state width="819" height="262" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="929" height="262" key="GridCell.Tab.0.left" timestamp="1596237293173">
+    <state width="929" height="262" key="GridCell.Tab.0.left" timestamp="1596237517826">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="262" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237293173" />
+    <state width="929" height="262" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237517826" />
     <state width="819" height="262" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="929" height="262" key="GridCell.Tab.0.right" timestamp="1596237293174">
+    <state width="929" height="262" key="GridCell.Tab.0.right" timestamp="1596237517827">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="262" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237293174" />
+    <state width="929" height="262" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237517827" />
     <state width="819" height="262" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
     <state width="929" height="313" key="GridCell.Tab.1.bottom" timestamp="1596179804106">
       <screen x="44" y="23" width="1876" height="1057" />
@@ -308,9 +306,10 @@
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
     <state width="929" height="313" key="GridCell.Tab.1.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596179804106" />
-    <state x="203" y="280" key="SettingsEditor" timestamp="1596082160679">
-      <screen x="43" y="23" width="1637" height="1027" />
+    <state x="227" y="288" key="SettingsEditor" timestamp="1596237991750">
+      <screen x="44" y="23" width="1876" height="1057" />
     </state>
+    <state x="227" y="288" key="SettingsEditor/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237991750" />
     <state x="203" y="280" key="SettingsEditor/43.23.1637.1027@43.23.1637.1027" timestamp="1596082160679" />
     <state x="383" y="157" key="SettingsEditor/44.23.1636.1027@44.23.1636.1027" timestamp="1595944640299" />
     <state x="1207" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596170343649">
@@ -321,10 +320,10 @@
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
     <state x="1176" y="271" key="extract.method.dialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596161433984" />
-    <state x="598" y="257" width="768" height="696" key="search.everywhere.popup" timestamp="1596171148871">
+    <state x="598" y="257" width="768" height="696" key="search.everywhere.popup" timestamp="1596237988624">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state x="598" y="257" width="768" height="696" key="search.everywhere.popup/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596171148871" />
+    <state x="598" y="257" width="768" height="696" key="search.everywhere.popup/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237988624" />
     <state x="526" y="250" width="670" height="676" key="search.everywhere.popup/43.23.1637.1027@43.23.1637.1027" timestamp="1596070142089" />
   </component>
   <component name="XDebuggerManager">
