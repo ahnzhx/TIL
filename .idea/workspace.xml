@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tdd/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tdd/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/java/tdd/DollarExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/tdd/DollarExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +91,7 @@
       <recent name="com.java.inflearnJava.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DollarExample.testEquality">
+  <component name="RunManager" selected="JUnit.DollarExample.testMultiplication">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,8 +228,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DollarExample.testEquality" />
         <item itemvalue="JUnit.DollarExample.testMultiplication" />
+        <item itemvalue="JUnit.DollarExample.testEquality" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="JUnit.SampleTest" />
         <item itemvalue="JUnit.SampleTest.m8" />
@@ -270,25 +272,25 @@
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
     <state x="1172" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596234934910" />
-    <state width="929" height="262" key="GridCell.Tab.0.bottom" timestamp="1596237517827">
+    <state width="929" height="271" key="GridCell.Tab.0.bottom" timestamp="1596352427916">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="262" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237517827" />
+    <state width="929" height="271" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596352427916" />
     <state width="819" height="262" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185125" />
-    <state width="929" height="262" key="GridCell.Tab.0.center" timestamp="1596237517826">
+    <state width="929" height="271" key="GridCell.Tab.0.center" timestamp="1596352427915">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="262" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237517826" />
+    <state width="929" height="271" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596352427915" />
     <state width="819" height="262" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="929" height="262" key="GridCell.Tab.0.left" timestamp="1596237517826">
+    <state width="929" height="271" key="GridCell.Tab.0.left" timestamp="1596352427915">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="262" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237517826" />
+    <state width="929" height="271" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596352427915" />
     <state width="819" height="262" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="929" height="262" key="GridCell.Tab.0.right" timestamp="1596237517827">
+    <state width="929" height="271" key="GridCell.Tab.0.right" timestamp="1596352427916">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="262" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237517827" />
+    <state width="929" height="271" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596352427916" />
     <state width="819" height="262" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
     <state width="929" height="313" key="GridCell.Tab.1.bottom" timestamp="1596179804106">
       <screen x="44" y="23" width="1876" height="1057" />
