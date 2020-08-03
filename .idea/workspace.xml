@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tdd/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tdd/Dollar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/java/tdd/DollarExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/tdd/DollarExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,21 +20,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>clone</find>
-      <find>deep copy</find>
-      <find>number</find>
-      <find>notifyObservers</find>
-      <find>change</find>
-      <find>setcja</find>
-      <find>subscribers</find>
-      <find>byte</find>
-      <find>lombok</find>
-      <find>addAll</find>
-      <find>popAll</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -252,6 +236,7 @@
       <workItem from="1596067981583" duration="4981000" />
       <workItem from="1596159981592" duration="11046000" />
       <workItem from="1596232618810" duration="773000" />
+      <workItem from="1596491200099" duration="1340000" />
     </task>
     <servers />
   </component>
@@ -272,25 +257,25 @@
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
     <state x="1172" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596234934910" />
-    <state width="929" height="271" key="GridCell.Tab.0.bottom" timestamp="1596352427916">
+    <state width="929" height="271" key="GridCell.Tab.0.bottom" timestamp="1596370024467">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="271" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596352427916" />
+    <state width="929" height="271" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596370024467" />
     <state width="819" height="262" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185125" />
-    <state width="929" height="271" key="GridCell.Tab.0.center" timestamp="1596352427915">
+    <state width="929" height="271" key="GridCell.Tab.0.center" timestamp="1596370024466">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="271" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596352427915" />
+    <state width="929" height="271" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596370024466" />
     <state width="819" height="262" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="929" height="271" key="GridCell.Tab.0.left" timestamp="1596352427915">
+    <state width="929" height="271" key="GridCell.Tab.0.left" timestamp="1596370024466">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="271" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596352427915" />
+    <state width="929" height="271" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596370024466" />
     <state width="819" height="262" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="929" height="271" key="GridCell.Tab.0.right" timestamp="1596352427916">
+    <state width="929" height="271" key="GridCell.Tab.0.right" timestamp="1596370024466">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="929" height="271" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596352427916" />
+    <state width="929" height="271" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596370024466" />
     <state width="819" height="262" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
     <state width="929" height="313" key="GridCell.Tab.1.bottom" timestamp="1596179804106">
       <screen x="44" y="23" width="1876" height="1057" />
@@ -360,6 +345,14 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item37/Plant.java</url>
           <line>26</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/java/tdd/DollarExample.java</url>
+          <line>8</line>
+          <properties class="com.java.tdd.DollarExample" method="testMultiplication">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
