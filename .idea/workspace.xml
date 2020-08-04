@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/AbstractInterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/AbstractInterfaceTestImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/ReferenceExtd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/ReferenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="AnnotationType" />
         <option value="JUnit4 Test Class" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -237,6 +242,8 @@
       <workItem from="1596159981592" duration="11046000" />
       <workItem from="1596232618810" duration="773000" />
       <workItem from="1596491200099" duration="1340000" />
+      <workItem from="1596494596550" duration="55000" />
+      <workItem from="1596540638101" duration="1734000" />
     </task>
     <servers />
   </component>
@@ -248,10 +255,11 @@
       <screen x="43" y="23" width="1637" height="1027" />
     </state>
     <state x="849" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/43.23.1637.1027@43.23.1637.1027" timestamp="1596072298245" />
-    <state x="767" y="254" key="#com.intellij.ide.util.MemberChooser" timestamp="1596234961835">
-      <screen x="44" y="23" width="1876" height="1057" />
+    <state x="768" y="254" key="#com.intellij.ide.util.MemberChooser" timestamp="1596543025292">
+      <screen x="45" y="23" width="1875" height="1057" />
     </state>
     <state x="767" y="254" key="#com.intellij.ide.util.MemberChooser/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596234961835" />
+    <state x="768" y="254" key="#com.intellij.ide.util.MemberChooser/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596543025292" />
     <state x="674" y="247" key="#com.intellij.ide.util.MemberChooser/43.23.1637.1027@43.23.1637.1027" timestamp="1596071423168" />
     <state x="1172" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596234934910">
       <screen x="44" y="23" width="1876" height="1057" />
