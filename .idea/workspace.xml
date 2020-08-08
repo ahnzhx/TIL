@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/MethodReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item45/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item45/MersennePrime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ClientExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ServerExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/rxJava/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/MethodReferenceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/MethodReferenceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item45/MersennePrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item45/MersennePrime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +86,7 @@
       <recent name="com.java.inflearnJava.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DollarExample.testMultiplication">
+  <component name="RunManager" selected="Application.MethodReferenceExample">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,6 +145,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="MethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.item42.MethodReferenceExample" />
+      <module name="javadaejang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.effectiveJava.item42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.item39.Sample" />
       <module name="javadaejang" />
@@ -160,6 +167,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,29 +231,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTest.m8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javadaejang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.effectiveJava.item39.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.java.effectiveJava.item39" />
-      <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.item39.SampleTest" />
-      <option name="METHOD_NAME" value="m8" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodReferenceExample" />
         <item itemvalue="JUnit.DollarExample.testMultiplication" />
         <item itemvalue="JUnit.DollarExample.testEquality" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="JUnit.SampleTest" />
-        <item itemvalue="JUnit.SampleTest.m8" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +265,7 @@
       <workItem from="1596626874826" duration="517000" />
       <workItem from="1596666171334" duration="154000" />
       <workItem from="1596795649997" duration="2584000" />
-      <workItem from="1596884485551" duration="28000" />
+      <workItem from="1596884485551" duration="3193000" />
     </task>
     <servers />
   </component>
@@ -287,25 +291,29 @@
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
     <state x="1172" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596234934910" />
-    <state width="929" height="271" key="GridCell.Tab.0.bottom" timestamp="1596370024467">
-      <screen x="44" y="23" width="1876" height="1057" />
+    <state width="858" height="280" key="GridCell.Tab.0.bottom" timestamp="1596889824099">
+      <screen x="45" y="23" width="1875" height="1057" />
     </state>
     <state width="929" height="271" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596370024467" />
+    <state width="858" height="280" key="GridCell.Tab.0.bottom/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596889824099" />
     <state width="819" height="262" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185125" />
-    <state width="929" height="271" key="GridCell.Tab.0.center" timestamp="1596370024466">
-      <screen x="44" y="23" width="1876" height="1057" />
+    <state width="858" height="280" key="GridCell.Tab.0.center" timestamp="1596889824098">
+      <screen x="45" y="23" width="1875" height="1057" />
     </state>
     <state width="929" height="271" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596370024466" />
+    <state width="858" height="280" key="GridCell.Tab.0.center/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596889824098" />
     <state width="819" height="262" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="929" height="271" key="GridCell.Tab.0.left" timestamp="1596370024466">
-      <screen x="44" y="23" width="1876" height="1057" />
+    <state width="858" height="280" key="GridCell.Tab.0.left" timestamp="1596889824098">
+      <screen x="45" y="23" width="1875" height="1057" />
     </state>
     <state width="929" height="271" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596370024466" />
+    <state width="858" height="280" key="GridCell.Tab.0.left/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596889824098" />
     <state width="819" height="262" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="929" height="271" key="GridCell.Tab.0.right" timestamp="1596370024466">
-      <screen x="44" y="23" width="1876" height="1057" />
+    <state width="858" height="280" key="GridCell.Tab.0.right" timestamp="1596889824099">
+      <screen x="45" y="23" width="1875" height="1057" />
     </state>
     <state width="929" height="271" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596370024466" />
+    <state width="858" height="280" key="GridCell.Tab.0.right/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596889824099" />
     <state width="819" height="262" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
     <state width="929" height="313" key="GridCell.Tab.1.bottom" timestamp="1596179804106">
       <screen x="44" y="23" width="1876" height="1057" />

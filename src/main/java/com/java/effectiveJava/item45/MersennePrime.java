@@ -10,7 +10,7 @@ public class MersennePrime {
         return Stream.iterate(TWO, BigInteger::nextProbablePrime);
     }
     public static void main(String[] args) {
-        primes().map(p -> TWO.pow(p.intValueExact()).substract(ONE));
-        .filter
+//        primes().map(p -> TWO.pow(p.intValueExact()).substract(ONE));
+//        .filter
     }
 }
