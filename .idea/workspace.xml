@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/AbstractInterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/AbstractInterfaceTestImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/ReferenceExtd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/ReferenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/MethodReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item45/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item45/MersennePrime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ClientExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/functionalProgramming/socket/ServerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/rxJava/HelloWorld.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +33,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1fJm50x5k94NdzuAEDe7kSxvLFu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -225,6 +237,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -243,14 +256,23 @@
       <workItem from="1596232618810" duration="773000" />
       <workItem from="1596491200099" duration="1340000" />
       <workItem from="1596494596550" duration="55000" />
-      <workItem from="1596540638101" duration="1734000" />
+      <workItem from="1596540638101" duration="2985000" />
+      <workItem from="1596621147105" duration="689000" />
+      <workItem from="1596626874826" duration="517000" />
+      <workItem from="1596666171334" duration="154000" />
+      <workItem from="1596795649997" duration="2584000" />
+      <workItem from="1596884485551" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="727" y="387" key="#Notifications" timestamp="1596884512198">
+      <screen x="45" y="23" width="1875" height="1057" />
+    </state>
+    <state x="727" y="387" key="#Notifications/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596884512198" />
     <state x="849" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596072298245">
       <screen x="43" y="23" width="1637" height="1027" />
     </state>
@@ -315,10 +337,11 @@
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
     <state x="1176" y="271" key="extract.method.dialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596161433984" />
-    <state x="598" y="257" width="768" height="696" key="search.everywhere.popup" timestamp="1596237988624">
-      <screen x="44" y="23" width="1876" height="1057" />
+    <state x="599" y="257" width="768" height="696" key="search.everywhere.popup" timestamp="1596805238534">
+      <screen x="45" y="23" width="1875" height="1057" />
     </state>
     <state x="598" y="257" width="768" height="696" key="search.everywhere.popup/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237988624" />
+    <state x="599" y="257" width="768" height="696" key="search.everywhere.popup/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596805238534" />
     <state x="526" y="250" width="670" height="676" key="search.everywhere.popup/43.23.1637.1027@43.23.1637.1027" timestamp="1596070142089" />
   </component>
   <component name="XDebuggerManager">
