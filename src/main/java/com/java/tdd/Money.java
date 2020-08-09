@@ -1,10 +1,12 @@
 package com.java.tdd;
 
-abstract class Money {
+class Money {
     protected int amount;
     protected String currency;
 
-    abstract Money times(int multiplier);
+    Money times(int multiplier){
+        return new Money(amount * multiplier, currency);
+    }
 
     String currency(){
         return currency;
@@ -15,17 +17,29 @@ abstract class Money {
         this.currency = currency;
     }
 
-    static Dollar dollar(int amount) {
-        return new Dollar(amount, "USD");
+    static Money dollar(int amount) {
+        return new Money(amount, "USD");
     }
 
     static Money franc(int amount) {
-        return new Franc(amount, "CHF");
+        return new Money(amount, "CHF");
     }
 
     public boolean equals(Object object){
         Money money = (Money) object;
         return amount == money.amount
-                && getClass().equals(money.getClass());
+                && currency().equals(money.currency());
+    }
+
+    @Override
+    public String toString() {
+        return "Money{" +
+                "amount=" + amount +
+                ", currency='" + currency + '\'' +
+                '}';
+    }
+
+    Money plus(Money addend){
+        return new Money(amount + addend.amount, currency);
     }
 }
