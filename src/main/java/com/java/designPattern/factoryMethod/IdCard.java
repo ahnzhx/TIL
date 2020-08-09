@@ -1,4 +1,4 @@
-package com.java.designPattern.factoryMethod.anotherExample;
+package com.java.designPattern.factoryMethod;
 
 public class IdCard extends Product{
     private String owner;

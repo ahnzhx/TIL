@@ -1,4 +1,4 @@
-package com.java.designPattern.factoryMethod.anotherExample;
+package com.java.designPattern.factoryMethod;
 
 public abstract class Factory {
     public final Product create(String owner){
@@ -6,9 +6,6 @@ public abstract class Factory {
         registerProduct(product);
         return product;
     }
-
-    protected abstract void registerProduct(Product product);
-
     protected abstract Product createProduct(String owner);
-
+    protected abstract void registerProduct(Product product);
 }
