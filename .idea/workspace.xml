@@ -6,26 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tdd/Dollar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tdd/Franc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tdd/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tdd/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/java/tdd/DollarExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/tdd/DollarExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/factoryMethod/CheesePizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/factoryMethod/CombinationPizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/factoryMethod/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/designPattern/factoryMethod/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/factoryMethod/PepperoniPizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/factoryMethod/Pizza$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/factoryMethod/Pizza$PizzaType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/factoryMethod/Pizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/factoryMethod/anotherExample/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/factoryMethod/anotherExample/IdCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/factoryMethod/anotherExample/IdCardFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/factoryMethod/anotherExample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/designPattern/factoryMethod/anotherExample/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tdd/Dollar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/tdd/Dollar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tdd/Franc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/tdd/Franc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tdd/Money.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/tdd/Money.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/java/tdd/DollarExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/java/tdd/DollarExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item45/MersennePrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item45/MersennePrime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,19 +171,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DollarExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
@@ -284,7 +252,8 @@
       <workItem from="1596626874826" duration="517000" />
       <workItem from="1596666171334" duration="154000" />
       <workItem from="1596795649997" duration="2584000" />
-      <workItem from="1596884485551" duration="15497000" />
+      <workItem from="1596884485551" duration="15759000" />
+      <workItem from="1597065716413" duration="16000" />
     </task>
     <servers />
   </component>
@@ -310,28 +279,28 @@
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
     <state x="1172" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596947688310" />
-    <state width="1833" height="280" key="GridCell.Tab.0.bottom" timestamp="1596947471464">
+    <state width="1833" height="280" key="GridCell.Tab.0.bottom" timestamp="1596948297872">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="1833" height="280" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596947471464" />
+    <state width="1833" height="280" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596948297872" />
     <state width="1833" height="280" key="GridCell.Tab.0.bottom/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928616873" />
     <state width="819" height="262" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185125" />
-    <state width="1833" height="280" key="GridCell.Tab.0.center" timestamp="1596947471463">
+    <state width="1833" height="280" key="GridCell.Tab.0.center" timestamp="1596948297871">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="1833" height="280" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596947471463" />
+    <state width="1833" height="280" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596948297871" />
     <state width="1833" height="280" key="GridCell.Tab.0.center/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928616872" />
     <state width="819" height="262" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="1833" height="280" key="GridCell.Tab.0.left" timestamp="1596947471463">
+    <state width="1833" height="280" key="GridCell.Tab.0.left" timestamp="1596948297871">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="1833" height="280" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596947471463" />
+    <state width="1833" height="280" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596948297871" />
     <state width="1833" height="280" key="GridCell.Tab.0.left/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928616871" />
     <state width="819" height="262" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="1833" height="280" key="GridCell.Tab.0.right" timestamp="1596947471463">
+    <state width="1833" height="280" key="GridCell.Tab.0.right" timestamp="1596948297872">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
-    <state width="1833" height="280" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596947471463" />
+    <state width="1833" height="280" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596948297872" />
     <state width="1833" height="280" key="GridCell.Tab.0.right/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928616872" />
     <state width="819" height="262" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
     <state width="929" height="313" key="GridCell.Tab.1.bottom" timestamp="1596179804106">
