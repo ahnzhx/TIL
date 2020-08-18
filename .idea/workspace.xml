@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item46/StreamParadigm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item45/MersennePrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item45/MersennePrime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +267,7 @@
       <workItem from="1596795649997" duration="2584000" />
       <workItem from="1596884485551" duration="15759000" />
       <workItem from="1597065716413" duration="122000" />
-      <workItem from="1597724754505" duration="883000" />
+      <workItem from="1597724754505" duration="2887000" />
     </task>
     <servers />
   </component>
