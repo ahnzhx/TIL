@@ -171,6 +171,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DollarExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
@@ -253,7 +266,8 @@
       <workItem from="1596666171334" duration="154000" />
       <workItem from="1596795649997" duration="2584000" />
       <workItem from="1596884485551" duration="15759000" />
-      <workItem from="1597065716413" duration="16000" />
+      <workItem from="1597065716413" duration="122000" />
+      <workItem from="1597724754505" duration="883000" />
     </task>
     <servers />
   </component>
