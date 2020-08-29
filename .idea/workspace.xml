@@ -5,8 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item46/StreamParadigm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/lamdaAndStream/item47/AdapterMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/method/item54.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item13/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item13/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item13/IsArrayCopyIsDeepCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item13/IsArrayCopyIsDeepCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item13/Item13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item13/Item13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item13/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item13/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item13/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item13/Sub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item13/Sup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item13/Sup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item17/Complex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item17/Complex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item17/ForwardingSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item17/ForwardingSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item20/AbstractVending.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item20/AbstractVending.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item20/BeverageVending.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item20/BeverageVending.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item20/Vending.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item20/Vending.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item23/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item23/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item24/AnonymousClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item24/AnonymousClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item24/MakingStaticMemberClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item24/MakingStaticMemberClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item24/MySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item24/MySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item25/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item25/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item25/Utensil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item25/Utensil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item26/RawTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/generic/item26/RawTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item28/VarArgsMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/generic/item28/VarArgsMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item32/VarArgsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/generic/item32/VarArgsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item34/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item34/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item34/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item34/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item37/EnumMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item37/EnumMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item37/Phase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item37/Phase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item37/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item37/Plant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item38/BasicOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item38/BasicOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item38/ExtendedOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item38/ExtendedOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item38/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item38/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item38/Peach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item38/Peach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item38/UsingExtendedOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item38/UsingExtendedOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item39/ExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item39/ExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item39/ExceptionTestContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item39/ExceptionTestContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item39/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item39/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item39/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item39/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/AbstractInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/lamdaAndStream/item42/AbstractInterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/AbstractInterfaceTestImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/lamdaAndStream/item42/AbstractInterfaceTestImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/lamdaAndStream/item42/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/MethodReferenceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/lamdaAndStream/item42/MethodReferenceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/lamdaAndStream/item42/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/ReferenceExtd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/lamdaAndStream/item42/ReferenceExtd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item42/ReferenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/lamdaAndStream/item42/ReferenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item45/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/lamdaAndStream/item45/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item45/MersennePrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/lamdaAndStream/item45/MersennePrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item46/StreamParadigm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/lamdaAndStream/item46/StreamParadigm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/java/effectiveJava/item13/IsArrayCopyIsDeepCopyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/effectiveJava/classAndInterface/item13/IsArrayCopyIsDeepCopyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/java/effectiveJava/item13/SubTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/effectiveJava/classAndInterface/item13/SubTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/java/effectiveJava/item32/BoundedWildCardExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/effectiveJava/generic/item32/BoundedWildCardExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,19 +219,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DollarExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
@@ -267,7 +302,9 @@
       <workItem from="1596795649997" duration="2584000" />
       <workItem from="1596884485551" duration="15759000" />
       <workItem from="1597065716413" duration="122000" />
-      <workItem from="1597724754505" duration="2887000" />
+      <workItem from="1597724754505" duration="3227000" />
+      <workItem from="1598092568816" duration="1716000" />
+      <workItem from="1598683897808" duration="1846000" />
     </task>
     <servers />
   </component>
@@ -289,6 +326,10 @@
     <state x="767" y="254" key="#com.intellij.ide.util.MemberChooser/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596947190788" />
     <state x="768" y="254" key="#com.intellij.ide.util.MemberChooser/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928249539" />
     <state x="674" y="247" key="#com.intellij.ide.util.MemberChooser/43.23.1637.1027@43.23.1637.1027" timestamp="1596071423168" />
+    <state x="318" y="478" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598093066278">
+      <screen x="43" y="23" width="1877" height="1057" />
+    </state>
+    <state x="318" y="478" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1598093066278" />
     <state x="1172" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596947688310">
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
@@ -362,17 +403,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item13/Item13.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item13/Item13.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item13/Item13.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item13/Item13.java</url>
           <line>8</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item13/Sub.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/classAndInterface/item13/Sub.java</url>
           <line>13</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -382,12 +423,12 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item32/VarArgsTest.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/generic/item32/VarArgsTest.java</url>
           <line>8</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/item37/Plant.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/java/effectiveJava/enumAndAnnotation/item37/Plant.java</url>
           <line>26</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
