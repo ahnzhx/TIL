@@ -5,83 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/concurrent/ForkJoinPoolExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/serializable/Elvis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/serializable/ElvisStealer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/effectiveJava/concurrent/ForkJoinPoolExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/tdd/triangulate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/tdd/triangulateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/lamdaAndStream/item46/StreamParadigm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/effectiveJava/method/item54.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/HashTable$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/HashTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/IsArrayCopyIsDeepCopy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/Item13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/Sub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item13/Sup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item17/Complex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item17/ForwardingSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item20/AbstractVending.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item20/BeverageVending.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item20/Vending.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item23/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item23/Figure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item23/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item24/AnonymousClass$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item24/AnonymousClass$1LocalInnerClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item24/AnonymousClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item24/MakingStaticMemberClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item24/MySet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item25/Dessert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item25/Test$Dessert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item25/Test$Utensil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item25/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item25/Utensil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item26/RawTypeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item28/VarArgsMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item32/VarArgsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item34/Ensemble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item34/Operation$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item34/Operation$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item34/Operation$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item34/Operation$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item34/Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item34/Text.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item34/Text2$Style.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item34/Text2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item37/EnumMapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item37/Phase$Transition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item37/Phase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item37/Plant$LifeCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item37/Plant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item38/BasicOperation$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item38/BasicOperation$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item38/BasicOperation$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item38/BasicOperation$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item38/BasicOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item38/ExtendedOperation$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item38/ExtendedOperation$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item38/ExtendedOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item38/Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item38/Peach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item38/UsingExtendedOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item39/ExceptionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item39/ExceptionTestContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item39/Sample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item39/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item42/AbstractInterfaceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item42/AbstractInterfaceTestImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item42/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item42/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item42/MethodReferenceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item42/Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item42/ReferenceExtd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item42/ReferenceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item45/Anagram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/effectiveJava/item45/MersennePrime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tdd/Dollar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tdd/Franc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tdd/Money.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,11 +67,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.java.tdd" />
       <recent name="com.java.effectiveJava.concurrent" />
       <recent name="com.java.effectiveJava.item39" />
       <recent name="com.java.effectiveJava.item31" />
       <recent name="com.java.inflearnJava.proxy" />
-      <recent name="com.java.javadaejang.effectiveJava.item13" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.java.javadaejang.effectiveJava" />
@@ -350,6 +276,7 @@
       <workItem from="1598995891215" duration="3000" />
       <workItem from="1599296138021" duration="2756000" />
       <workItem from="1599612891596" duration="1829000" />
+      <workItem from="1599820188035" duration="832000" />
     </task>
     <servers />
   </component>
@@ -380,27 +307,35 @@
       <screen x="44" y="23" width="1876" height="1057" />
     </state>
     <state x="1172" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596947688310" />
-    <state width="1833" height="280" key="GridCell.Tab.0.bottom" timestamp="1596948297872">
-      <screen x="44" y="23" width="1876" height="1057" />
+    <state width="886" height="270" key="GridCell.Tab.0.bottom" timestamp="1599885275531">
+      <screen x="42" y="23" width="1878" height="1057" />
     </state>
+    <state width="886" height="270" key="GridCell.Tab.0.bottom/1920.23.1680.1027/42.23.1878.1057@42.23.1878.1057" timestamp="1599885275531" />
+    <state width="886" height="270" key="GridCell.Tab.0.bottom/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1599820209805" />
     <state width="1833" height="280" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596948297872" />
     <state width="1833" height="280" key="GridCell.Tab.0.bottom/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928616873" />
     <state width="819" height="262" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185125" />
-    <state width="1833" height="280" key="GridCell.Tab.0.center" timestamp="1596948297871">
-      <screen x="44" y="23" width="1876" height="1057" />
+    <state width="886" height="270" key="GridCell.Tab.0.center" timestamp="1599885275530">
+      <screen x="42" y="23" width="1878" height="1057" />
     </state>
+    <state width="886" height="270" key="GridCell.Tab.0.center/1920.23.1680.1027/42.23.1878.1057@42.23.1878.1057" timestamp="1599885275530" />
+    <state width="886" height="270" key="GridCell.Tab.0.center/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1599820209804" />
     <state width="1833" height="280" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596948297871" />
     <state width="1833" height="280" key="GridCell.Tab.0.center/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928616872" />
     <state width="819" height="262" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="1833" height="280" key="GridCell.Tab.0.left" timestamp="1596948297871">
-      <screen x="44" y="23" width="1876" height="1057" />
+    <state width="886" height="270" key="GridCell.Tab.0.left" timestamp="1599885275530">
+      <screen x="42" y="23" width="1878" height="1057" />
     </state>
+    <state width="886" height="270" key="GridCell.Tab.0.left/1920.23.1680.1027/42.23.1878.1057@42.23.1878.1057" timestamp="1599885275530" />
+    <state width="886" height="270" key="GridCell.Tab.0.left/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1599820209803" />
     <state width="1833" height="280" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596948297871" />
     <state width="1833" height="280" key="GridCell.Tab.0.left/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928616871" />
     <state width="819" height="262" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="1833" height="280" key="GridCell.Tab.0.right" timestamp="1596948297872">
-      <screen x="44" y="23" width="1876" height="1057" />
+    <state width="886" height="270" key="GridCell.Tab.0.right" timestamp="1599885275531">
+      <screen x="42" y="23" width="1878" height="1057" />
     </state>
+    <state width="886" height="270" key="GridCell.Tab.0.right/1920.23.1680.1027/42.23.1878.1057@42.23.1878.1057" timestamp="1599885275531" />
+    <state width="886" height="270" key="GridCell.Tab.0.right/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1599820209805" />
     <state width="1833" height="280" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596948297872" />
     <state width="1833" height="280" key="GridCell.Tab.0.right/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928616872" />
     <state width="819" height="262" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
@@ -430,10 +365,10 @@
     <state x="227" y="288" key="SettingsEditor/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237991750" />
     <state x="203" y="280" key="SettingsEditor/43.23.1637.1027@43.23.1637.1027" timestamp="1596082160679" />
     <state x="383" y="157" key="SettingsEditor/44.23.1636.1027@44.23.1636.1027" timestamp="1595944640299" />
-    <state x="1207" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599613289121">
+    <state x="1207" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599820301074">
       <screen x="43" y="23" width="1877" height="1057" />
     </state>
-    <state x="1207" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1599613289121" />
+    <state x="1207" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1599820301074" />
     <state x="1207" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596170343649" />
     <state x="1176" y="271" key="extract.method.dialog" timestamp="1596161433984">
       <screen x="44" y="23" width="1876" height="1057" />
