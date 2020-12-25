@@ -5,8 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class StudyTest2 {
 
-    @Test
-    @Tag("fast")
+    @FastTest
     void fast_case_with_same_conditions(){
         System.out.println("fast");
     }

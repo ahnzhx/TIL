@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/StudyTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/FastTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/StudyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/StudyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/StudyTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/StudyTest2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +20,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
         <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -170,6 +169,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudyTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javadaejang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tddTheJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudyTest2.slow_case_with_same_conditions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
@@ -261,14 +275,15 @@
       <item itemvalue="JUnit.StudyTest.testWithConditions_different_expression" />
       <item itemvalue="JUnit.Tags (fast )" />
       <item itemvalue="JUnit.StudyTest2.slow_case_with_same_conditions" />
+      <item itemvalue="JUnit.StudyTest2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Tags (fast )" />
+        <item itemvalue="JUnit.StudyTest2" />
         <item itemvalue="JUnit.StudyTest2.slow_case_with_same_conditions" />
         <item itemvalue="JUnit.Tags (fast )" />
         <item itemvalue="JUnit.StudyTest.testWithConditions_different_expression" />
-        <item itemvalue="JUnit.StudyTest.create" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +325,7 @@
       <workItem from="1608869063913" duration="3400000" />
       <workItem from="1608873953961" duration="228000" />
       <workItem from="1608874201972" duration="487000" />
-      <workItem from="1608875191769" duration="1801000" />
+      <workItem from="1608875191769" duration="2133000" />
     </task>
     <servers />
   </component>
@@ -336,26 +351,26 @@
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state x="372" y="115" key="DiffContextDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608873561788" />
-    <state width="761" height="366" key="GridCell.Tab.0.bottom" timestamp="1608876463851">
+    <state width="761" height="366" key="GridCell.Tab.0.bottom" timestamp="1608877002804">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047736" />
-    <state width="761" height="366" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1608876463851" />
-    <state width="761" height="366" key="GridCell.Tab.0.center" timestamp="1608876463851">
+    <state width="761" height="366" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1608877002804" />
+    <state width="761" height="366" key="GridCell.Tab.0.center" timestamp="1608877002803">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047735" />
-    <state width="761" height="366" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1608876463851" />
-    <state width="761" height="366" key="GridCell.Tab.0.left" timestamp="1608876463850">
+    <state width="761" height="366" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1608877002803" />
+    <state width="761" height="366" key="GridCell.Tab.0.left" timestamp="1608877002803">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047735" />
-    <state width="761" height="366" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1608876463850" />
-    <state width="761" height="366" key="GridCell.Tab.0.right" timestamp="1608876463851">
+    <state width="761" height="366" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1608877002803" />
+    <state width="761" height="366" key="GridCell.Tab.0.right" timestamp="1608877002804">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047736" />
-    <state width="761" height="366" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1608876463851" />
+    <state width="761" height="366" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1608877002804" />
     <state width="1596" height="312" key="GridCell.Tab.1.bottom" timestamp="1608869047728">
       <screen x="42" y="23" width="1638" height="1027" />
     </state>
