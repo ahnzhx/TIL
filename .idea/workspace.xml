@@ -5,14 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/tdd/triangulate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/tdd/triangulateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_30_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_30_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_30_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_30_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_4_30_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_common_1_4_30_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/Study.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/StudyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0_M1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadaejang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javadaejang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,8 +42,10 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -34,6 +58,9 @@
         <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1fJm50x5k94NdzuAEDe7kSxvLFu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -49,8 +76,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595655291073" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -64,14 +92,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.java.tddTheJava" />
+      <recent name="com.java.tdd-the-java" />
       <recent name="com.java.tdd" />
       <recent name="com.java.effectiveJava.concurrent" />
       <recent name="com.java.effectiveJava.item39" />
-      <recent name="com.java.effectiveJava.item31" />
-      <recent name="com.java.inflearnJava.proxy" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.java.javadaejang.effectiveJava" />
@@ -87,7 +116,7 @@
       <recent name="com.java.inflearnJava.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ForkJoinPoolExampleTest.test">
+  <component name="RunManager" selected="JUnit.StudyTest (1)">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,19 +175,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.designPattern.factoryMethod.anotherExample.Main" />
-      <module name="javadaejang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.designPattern.factoryMethod.anotherExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -185,7 +201,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DollarExample.testDifferentClassEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudyTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javadaejang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tddTheJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javadaejang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tddTheJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyTest.create2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javadaejang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tddTheJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest" />
+      <option name="METHOD_NAME" value="create2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="triangulateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
@@ -194,52 +257,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.java.tdd" />
-      <option name="MAIN_CLASS_NAME" value="com.java.tdd.DollarExample" />
-      <option name="METHOD_NAME" value="testDifferentClassEquality" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tdd.triangulateTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DollarExample.testFracMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javadaejang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.java.tdd" />
-      <option name="MAIN_CLASS_NAME" value="com.java.tdd.DollarExample" />
-      <option name="METHOD_NAME" value="testFracMultiplication" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForkJoinPoolExampleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javadaejang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.effectiveJava.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.java.effectiveJava.concurrent" />
-      <option name="MAIN_CLASS_NAME" value="com.java.effectiveJava.concurrent.ForkJoinPoolExampleTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="JUnit.DollarExample" />
+      <item itemvalue="JUnit.StudyTest (1)" />
+      <item itemvalue="JUnit.StudyTest.create" />
+      <item itemvalue="JUnit.triangulateTest" />
+      <item itemvalue="JUnit.StudyTest.create2" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ForkJoinPoolExampleTest.test" />
-        <item itemvalue="JUnit.DollarExample.testDifferentClassEquality" />
-        <item itemvalue="JUnit.DollarExample.testFracMultiplication" />
+        <item itemvalue="JUnit.StudyTest (1)" />
+        <item itemvalue="JUnit.StudyTest.create2" />
+        <item itemvalue="JUnit.triangulateTest" />
+        <item itemvalue="JUnit.StudyTest.create" />
         <item itemvalue="JUnit.DollarExample" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -277,6 +314,8 @@
       <workItem from="1599296138021" duration="2756000" />
       <workItem from="1599612891596" duration="1829000" />
       <workItem from="1599820188035" duration="832000" />
+      <workItem from="1608867552878" duration="1416000" />
+      <workItem from="1608869063913" duration="574000" />
     </task>
     <servers />
   </component>
@@ -284,103 +323,100 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="727" y="387" key="#Notifications" timestamp="1596884512198">
-      <screen x="45" y="23" width="1875" height="1057" />
-    </state>
-    <state x="727" y="387" key="#Notifications/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596884512198" />
-    <state x="849" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596072298245">
-      <screen x="43" y="23" width="1637" height="1027" />
-    </state>
-    <state x="849" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/43.23.1637.1027@43.23.1637.1027" timestamp="1596072298245" />
-    <state x="766" y="254" key="#com.intellij.ide.util.MemberChooser" timestamp="1599612976524">
-      <screen x="43" y="23" width="1877" height="1057" />
-    </state>
-    <state x="766" y="254" key="#com.intellij.ide.util.MemberChooser/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1599612976524" />
-    <state x="767" y="254" key="#com.intellij.ide.util.MemberChooser/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596947190788" />
-    <state x="768" y="254" key="#com.intellij.ide.util.MemberChooser/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928249539" />
-    <state x="674" y="247" key="#com.intellij.ide.util.MemberChooser/43.23.1637.1027@43.23.1637.1027" timestamp="1596071423168" />
-    <state x="318" y="478" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598093066278">
-      <screen x="43" y="23" width="1877" height="1057" />
-    </state>
-    <state x="318" y="478" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1598093066278" />
-    <state x="1172" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596947688310">
-      <screen x="44" y="23" width="1876" height="1057" />
-    </state>
-    <state x="1172" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596947688310" />
-    <state width="886" height="270" key="GridCell.Tab.0.bottom" timestamp="1599885275531">
-      <screen x="42" y="23" width="1878" height="1057" />
-    </state>
-    <state width="886" height="270" key="GridCell.Tab.0.bottom/1920.23.1680.1027/42.23.1878.1057@42.23.1878.1057" timestamp="1599885275531" />
-    <state width="886" height="270" key="GridCell.Tab.0.bottom/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1599820209805" />
-    <state width="1833" height="280" key="GridCell.Tab.0.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596948297872" />
-    <state width="1833" height="280" key="GridCell.Tab.0.bottom/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928616873" />
-    <state width="819" height="262" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185125" />
-    <state width="886" height="270" key="GridCell.Tab.0.center" timestamp="1599885275530">
-      <screen x="42" y="23" width="1878" height="1057" />
-    </state>
-    <state width="886" height="270" key="GridCell.Tab.0.center/1920.23.1680.1027/42.23.1878.1057@42.23.1878.1057" timestamp="1599885275530" />
-    <state width="886" height="270" key="GridCell.Tab.0.center/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1599820209804" />
-    <state width="1833" height="280" key="GridCell.Tab.0.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596948297871" />
-    <state width="1833" height="280" key="GridCell.Tab.0.center/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928616872" />
-    <state width="819" height="262" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="886" height="270" key="GridCell.Tab.0.left" timestamp="1599885275530">
-      <screen x="42" y="23" width="1878" height="1057" />
-    </state>
-    <state width="886" height="270" key="GridCell.Tab.0.left/1920.23.1680.1027/42.23.1878.1057@42.23.1878.1057" timestamp="1599885275530" />
-    <state width="886" height="270" key="GridCell.Tab.0.left/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1599820209803" />
-    <state width="1833" height="280" key="GridCell.Tab.0.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596948297871" />
-    <state width="1833" height="280" key="GridCell.Tab.0.left/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928616871" />
-    <state width="819" height="262" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="886" height="270" key="GridCell.Tab.0.right" timestamp="1599885275531">
-      <screen x="42" y="23" width="1878" height="1057" />
-    </state>
-    <state width="886" height="270" key="GridCell.Tab.0.right/1920.23.1680.1027/42.23.1878.1057@42.23.1878.1057" timestamp="1599885275531" />
-    <state width="886" height="270" key="GridCell.Tab.0.right/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1599820209805" />
-    <state width="1833" height="280" key="GridCell.Tab.0.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596948297872" />
-    <state width="1833" height="280" key="GridCell.Tab.0.right/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596928616872" />
-    <state width="819" height="262" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1596082185124" />
-    <state width="929" height="313" key="GridCell.Tab.1.bottom" timestamp="1596179804106">
-      <screen x="44" y="23" width="1876" height="1057" />
-    </state>
-    <state width="929" height="313" key="GridCell.Tab.1.bottom/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596179804106" />
-    <state width="929" height="313" key="GridCell.Tab.1.center" timestamp="1596179804106">
-      <screen x="44" y="23" width="1876" height="1057" />
-    </state>
-    <state width="929" height="313" key="GridCell.Tab.1.center/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596179804106" />
-    <state width="929" height="313" key="GridCell.Tab.1.left" timestamp="1596179804105">
-      <screen x="44" y="23" width="1876" height="1057" />
-    </state>
-    <state width="929" height="313" key="GridCell.Tab.1.left/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596179804105" />
-    <state width="929" height="313" key="GridCell.Tab.1.right" timestamp="1596179804106">
-      <screen x="44" y="23" width="1876" height="1057" />
-    </state>
-    <state width="929" height="313" key="GridCell.Tab.1.right/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596179804106" />
-    <state x="520" y="213" key="Maven.ArtifactSearchDialog" timestamp="1596936598752">
-      <screen x="44" y="23" width="1876" height="1057" />
-    </state>
-    <state x="520" y="213" key="Maven.ArtifactSearchDialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596936598752" />
-    <state x="227" y="288" key="SettingsEditor" timestamp="1596237991750">
-      <screen x="44" y="23" width="1876" height="1057" />
-    </state>
-    <state x="227" y="288" key="SettingsEditor/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237991750" />
-    <state x="203" y="280" key="SettingsEditor/43.23.1637.1027@43.23.1637.1027" timestamp="1596082160679" />
-    <state x="383" y="157" key="SettingsEditor/44.23.1636.1027@44.23.1636.1027" timestamp="1595944640299" />
-    <state x="1207" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599820301074">
-      <screen x="43" y="23" width="1877" height="1057" />
-    </state>
-    <state x="1207" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.23.1680.1027/43.23.1877.1057@43.23.1877.1057" timestamp="1599820301074" />
-    <state x="1207" y="201" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596170343649" />
-    <state x="1176" y="271" key="extract.method.dialog" timestamp="1596161433984">
-      <screen x="44" y="23" width="1876" height="1057" />
-    </state>
-    <state x="1176" y="271" key="extract.method.dialog/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596161433984" />
-    <state x="526" y="250" width="671" height="677" key="search.everywhere.popup" timestamp="1599300789245">
+    <state x="325" y="198" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608868813631">
       <screen x="42" y="23" width="1638" height="1027" />
     </state>
-    <state x="598" y="257" width="768" height="696" key="search.everywhere.popup/1920.23.1680.1027/44.23.1876.1057@44.23.1876.1057" timestamp="1596237988624" />
-    <state x="599" y="257" width="768" height="696" key="search.everywhere.popup/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1596805238534" />
-    <state x="526" y="250" width="671" height="677" key="search.everywhere.popup/42.23.1638.1027@42.23.1638.1027" timestamp="1599300789245" />
-    <state x="526" y="250" width="670" height="676" key="search.everywhere.popup/43.23.1637.1027@43.23.1637.1027" timestamp="1596070142089" />
+    <state x="325" y="198" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/42.23.1638.1027@42.23.1638.1027" timestamp="1608868813631" />
+    <state x="977" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608869233326">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state x="976" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/42.23.1638.1027@42.23.1638.1027" timestamp="1608867648453" />
+    <state x="977" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608869233326" />
+    <state width="1594" height="366" key="GridCell.Tab.0.bottom" timestamp="1608869563167">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1596" height="366" key="GridCell.Tab.0.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047736" />
+    <state width="1594" height="366" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1608869563167" />
+    <state width="1594" height="366" key="GridCell.Tab.0.center" timestamp="1608869563166">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1596" height="366" key="GridCell.Tab.0.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047735" />
+    <state width="1594" height="366" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1608869563166" />
+    <state width="1594" height="366" key="GridCell.Tab.0.left" timestamp="1608869563166">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1596" height="366" key="GridCell.Tab.0.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047735" />
+    <state width="1594" height="366" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1608869563166" />
+    <state width="1594" height="366" key="GridCell.Tab.0.right" timestamp="1608869563167">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1596" height="366" key="GridCell.Tab.0.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047736" />
+    <state width="1594" height="366" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1608869563167" />
+    <state width="1596" height="312" key="GridCell.Tab.1.bottom" timestamp="1608869047728">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1596" height="312" key="GridCell.Tab.1.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047728" />
+    <state width="1596" height="312" key="GridCell.Tab.1.center" timestamp="1608869047727">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1596" height="312" key="GridCell.Tab.1.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047727" />
+    <state width="1596" height="312" key="GridCell.Tab.1.left" timestamp="1608869047727">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1596" height="312" key="GridCell.Tab.1.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047727" />
+    <state width="1596" height="312" key="GridCell.Tab.1.right" timestamp="1608869047728">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1596" height="312" key="GridCell.Tab.1.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047728" />
+    <state width="1596" height="312" key="GridCell.Tab.2.bottom" timestamp="1608869047729">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1596" height="312" key="GridCell.Tab.2.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047729" />
+    <state width="1596" height="312" key="GridCell.Tab.2.center" timestamp="1608869047728">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1596" height="312" key="GridCell.Tab.2.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047728" />
+    <state width="1596" height="312" key="GridCell.Tab.2.left" timestamp="1608869047728">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1596" height="312" key="GridCell.Tab.2.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047728" />
+    <state width="1596" height="312" key="GridCell.Tab.2.right" timestamp="1608869047728">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1596" height="312" key="GridCell.Tab.2.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047728" />
+    <state width="1596" height="312" key="GridCell.Tab.3.bottom" timestamp="1608869047729">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1596" height="312" key="GridCell.Tab.3.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047729" />
+    <state width="1596" height="312" key="GridCell.Tab.3.center" timestamp="1608869047729">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1596" height="312" key="GridCell.Tab.3.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047729" />
+    <state width="1596" height="312" key="GridCell.Tab.3.left" timestamp="1608869047729">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1596" height="312" key="GridCell.Tab.3.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047729" />
+    <state width="1596" height="312" key="GridCell.Tab.3.right" timestamp="1608869047729">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1596" height="312" key="GridCell.Tab.3.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047729" />
+    <state x="671" y="162" key="RollbackChangesDialog" timestamp="1608869214702">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state x="671" y="162" key="RollbackChangesDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608869214702" />
+    <state x="1018" y="350" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608869523157">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state x="1017" y="350" key="com.intellij.testIntegration.createTest.CreateTestDialog/42.23.1638.1027@42.23.1638.1027" timestamp="1608867665922" />
+    <state x="1018" y="350" key="com.intellij.testIntegration.createTest.CreateTestDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608869523157" />
+    <state x="641" y="333" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1608869471767">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state x="641" y="333" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608869471767" />
+    <state x="999" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1608868796984">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state x="999" y="250" width="670" height="676" key="search.everywhere.popup/42.23.1638.1027@42.23.1638.1027" timestamp="1608868796984" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
