@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/FastTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadaejang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javadaejang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/Study.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/StudyTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/StudyTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/StudyTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/StudyTest2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +101,7 @@
       <recent name="com.java.inflearnJava.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Tags (fast )">
+  <component name="RunManager" selected="JUnit.StudyTest2.parameterizedTest4">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,7 +173,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudyTest2.create_study (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
@@ -179,12 +183,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
       <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest2" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="create_study(org.junit.jupiter.api.RepetitionInfo)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyTest2.slow_case_with_same_conditions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudyTest2.create_study" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
@@ -194,13 +199,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
       <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest2" />
-      <option name="METHOD_NAME" value="slow_case_with_same_conditions" />
+      <option name="METHOD_NAME" value="create_study" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudyTest2.parameterizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
@@ -209,14 +214,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
-      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest" />
-      <option name="METHOD_NAME" value="create" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest2" />
+      <option name="METHOD_NAME" value="parameterizedTest(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyTest.testWithConditions_different_expression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudyTest2.parameterizedTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
@@ -225,8 +230,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
-      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest" />
-      <option name="METHOD_NAME" value="testWithConditions_different_expression" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest2" />
+      <option name="METHOD_NAME" value="parameterizedTest3(com.java.tddTheJava.Study)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyTest2.parameterizedTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javadaejang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tddTheJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest2" />
+      <option name="METHOD_NAME" value="parameterizedTest4(com.java.tddTheJava.Study)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -251,39 +272,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tags (fast )" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="javadaejang" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.tddTheJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
-      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest2" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="tags" />
-      <option name="PARAMETERS" value="" />
-      <tag value="fast" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.StudyTest.create" />
-      <item itemvalue="JUnit.StudyTest.testWithConditions_different_expression" />
-      <item itemvalue="JUnit.Tags (fast )" />
-      <item itemvalue="JUnit.StudyTest2.slow_case_with_same_conditions" />
-      <item itemvalue="JUnit.StudyTest2" />
+      <item itemvalue="JUnit.StudyTest2.create_study" />
+      <item itemvalue="JUnit.StudyTest2.create_study (1)" />
+      <item itemvalue="JUnit.StudyTest2.parameterizedTest" />
+      <item itemvalue="JUnit.StudyTest2.parameterizedTest3" />
+      <item itemvalue="JUnit.StudyTest2.parameterizedTest4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tags (fast )" />
-        <item itemvalue="JUnit.StudyTest2" />
-        <item itemvalue="JUnit.StudyTest2.slow_case_with_same_conditions" />
-        <item itemvalue="JUnit.Tags (fast )" />
-        <item itemvalue="JUnit.StudyTest.testWithConditions_different_expression" />
+        <item itemvalue="JUnit.StudyTest2.parameterizedTest4" />
+        <item itemvalue="JUnit.StudyTest2.parameterizedTest3" />
+        <item itemvalue="JUnit.StudyTest2.parameterizedTest" />
+        <item itemvalue="JUnit.StudyTest2.create_study (1)" />
+        <item itemvalue="JUnit.StudyTest2.create_study" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +327,7 @@
       <workItem from="1608869063913" duration="3400000" />
       <workItem from="1608873953961" duration="228000" />
       <workItem from="1608874201972" duration="487000" />
-      <workItem from="1608875191769" duration="2133000" />
+      <workItem from="1608875191769" duration="4230000" />
     </task>
     <servers />
   </component>
@@ -338,10 +340,10 @@
     </state>
     <state x="325" y="198" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/42.23.1638.1027@42.23.1638.1027" timestamp="1608868813631" />
     <state x="609" y="188" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608876461484" />
-    <state x="1091" y="219" key="#com.intellij.ide.util.MemberChooser" timestamp="1608870648646">
+    <state x="1091" y="219" key="#com.intellij.ide.util.MemberChooser" timestamp="1608898974216">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
-    <state x="1091" y="219" key="#com.intellij.ide.util.MemberChooser/44.23.1636.1027@44.23.1636.1027" timestamp="1608870648646" />
+    <state x="1091" y="219" key="#com.intellij.ide.util.MemberChooser/44.23.1636.1027@44.23.1636.1027" timestamp="1608898974216" />
     <state x="977" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608869233326">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
@@ -351,26 +353,26 @@
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state x="372" y="115" key="DiffContextDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608873561788" />
-    <state width="761" height="366" key="GridCell.Tab.0.bottom" timestamp="1608877002804">
+    <state width="761" height="366" key="GridCell.Tab.0.bottom" timestamp="1608899129040">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047736" />
-    <state width="761" height="366" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1608877002804" />
-    <state width="761" height="366" key="GridCell.Tab.0.center" timestamp="1608877002803">
+    <state width="761" height="366" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1608899129040" />
+    <state width="761" height="366" key="GridCell.Tab.0.center" timestamp="1608899129040">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047735" />
-    <state width="761" height="366" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1608877002803" />
-    <state width="761" height="366" key="GridCell.Tab.0.left" timestamp="1608877002803">
+    <state width="761" height="366" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1608899129040" />
+    <state width="761" height="366" key="GridCell.Tab.0.left" timestamp="1608899129039">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047735" />
-    <state width="761" height="366" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1608877002803" />
-    <state width="761" height="366" key="GridCell.Tab.0.right" timestamp="1608877002804">
+    <state width="761" height="366" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1608899129039" />
+    <state width="761" height="366" key="GridCell.Tab.0.right" timestamp="1608899129040">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047736" />
-    <state width="761" height="366" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1608877002804" />
+    <state width="761" height="366" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1608899129040" />
     <state width="1596" height="312" key="GridCell.Tab.1.bottom" timestamp="1608869047728">
       <screen x="42" y="23" width="1638" height="1027" />
     </state>
@@ -419,6 +421,10 @@
       <screen x="42" y="23" width="1638" height="1027" />
     </state>
     <state width="1596" height="312" key="GridCell.Tab.3.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047729" />
+    <state x="756" y="198" key="Maven.ArtifactSearchDialog" timestamp="1608877766698">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state x="756" y="198" key="Maven.ArtifactSearchDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608877766698" />
     <state x="671" y="162" key="RollbackChangesDialog" timestamp="1608869214702">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
