@@ -1,12 +1,14 @@
 package com.java.tddTheJava;
 
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.condition.*;
 import org.junit.jupiter.api.function.Executable;
 
 import java.time.Duration;
-import java.util.function.Supplier;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
+import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 class StudyTest {
 
@@ -51,6 +53,34 @@ class StudyTest {
             new Study(10);
             Thread.sleep(300);
         });
+    }
+
+    @Test
+    void testWithConditions(){
+        String test_env = System.getenv("TEST_ENV");
+        assumeTrue("LOCAL".equalsIgnoreCase(test_env));
+
+        assumingThat("LOCAL".equalsIgnoreCase(test_env), ()->{
+            System.out.println("local");
+        });
+
+    }
+
+    @Test
+    @EnabledIfEnvironmentVariable(named = "TEST_ENV", matches = "LOCAL")
+    void testWithConditions_different_expression(){
+        String test_env = System.getenv("TEST_ENV");
+        assumeTrue("LOCAL".equalsIgnoreCase(test_env));
+        System.out.println(test_env);
+    }
+
+    @Test
+    @EnabledOnOs({OS.MAC, OS.LINUX}) // disabled 도 마찬가지
+    @EnabledOnJre({JRE.JAVA_8, JRE.JAVA_11})
+    void testWithConditions2(){
+        String test_env = System.getenv("TEST_ENV");
+        assumeTrue("LOCAL".equalsIgnoreCase(test_env));
+
     }
 
     @BeforeAll
