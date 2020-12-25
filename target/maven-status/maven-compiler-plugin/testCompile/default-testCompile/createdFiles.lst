@@ -1,9 +1,7 @@
 com/java/inflearnJava/proxy/BookServiceTest.class
 com/java/inflearnJava/di/ContainerServiceTest.class
+com/java/inflearnJava/di/BookService.class
+com/java/inflearnJava/MoimTest.class
 com/java/inflearnJava/proxy/BookServiceTest$1.class
 com/java/inflearnJava/di/BookRepository.class
-com/java/inflearnJava/di/BookService.class
-com/java/effectiveJava/item13/SubTest.class
-com/java/inflearnJava/MoimTest.class
-com/java/effectiveJava/item13/IsArrayCopyIsDeepCopyTest.class
 com/java/inflearnJava/di/BookServiceTest.class
