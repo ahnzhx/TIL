@@ -1,4 +1,4 @@
-package com.java.tddTheJava;
+package com.java.tddTheJava.study;
 
 public enum StudyStatus {
     DRAFT

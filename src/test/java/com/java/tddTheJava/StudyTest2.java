@@ -1,7 +1,7 @@
 package com.java.tddTheJava;
 
+import com.java.tddTheJava.domain.Study;
 import org.junit.jupiter.api.*;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.api.extension.ParameterContext;
 import org.junit.jupiter.api.extension.RegisterExtension;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -16,6 +16,7 @@ import org.junit.jupiter.params.provider.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 // @ExtendWith(FindSlowTestExtension.class)
 // order 애너테이션을 가지고 순서를 정해준다
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)

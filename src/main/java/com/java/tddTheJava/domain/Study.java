@@ -1,12 +1,27 @@
-package com.java.tddTheJava;
+package com.java.tddTheJava.domain;
 
+import com.java.tddTheJava.study.StudyStatus;
+import lombok.Data;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import java.time.LocalDateTime;
+
+@Data
 public class Study {
+
+    @Id @GeneratedValue
+    private Long id;
 
     private StudyStatus status = StudyStatus.DRAFT;
 
     private int limit;
 
     private String name;
+
+    private LocalDateTime openedDateTime;
+
+    private Member owner;
 
     public Study(int limit, String name) {
         this.limit = limit;
@@ -18,6 +33,10 @@ public class Study {
             throw new IllegalArgumentException("limit은 0보다 커야한다");
         }
         this.limit = limit;
+    }
+
+    public Study() {
+
     }
 
     public StudyStatus getStatus() {
@@ -39,4 +58,5 @@ public class Study {
     public String getName() {
         return name;
     }
+
 }

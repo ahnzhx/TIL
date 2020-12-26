@@ -1,5 +1,7 @@
 package com.java.tddTheJava;
 
+import com.java.tddTheJava.domain.Study;
+import com.java.tddTheJava.study.StudyStatus;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.condition.*;
 import org.junit.jupiter.api.function.Executable;

@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/SlowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/StudyJUnit4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/member/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/study/StudyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/study/StudyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/study/StudyServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/FindSlowTestExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/FindSlowTestExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadaejang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javadaejang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/domain/Study.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/StudyStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/study/StudyStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/StudyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/StudyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/StudyTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/StudyTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tddTheJava/Study.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tddTheJava/StudyStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/StudyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/StudyTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/StudyTest2$StudyAggregator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/StudyTest2$StudyAggregator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/StudyTest2$StudyConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/StudyTest2$StudyConverter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/StudyTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/StudyTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/junit-platform.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +39,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
         <option value="Kotlin Class" />
-        <option value="JUnit5 Test Class" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -78,16 +91,17 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.java.tddTheJava.study" />
       <recent name="com.java.tddTheJava" />
       <recent name="com.java.tdd-the-java" />
       <recent name="com.java.tdd" />
       <recent name="com.java.effectiveJava.concurrent" />
-      <recent name="com.java.effectiveJava.item39" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
@@ -100,13 +114,14 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.java.tddTheJava.member" />
       <recent name="com.java.designPattern.factoryMethod" />
       <recent name="com.java.tdd" />
       <recent name="com.java.effectiveJava.item39" />
       <recent name="com.java.inflearnJava.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.java.tddTheJava in javadaejang">
+  <component name="RunManager" selected="JUnit.StudyServiceTest.createNewStudyWithConscutiveCalls">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,63 +193,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyJUnit4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudyServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.tddTheJava.*" />
+          <option name="PATTERN" value="com.java.tddTheJava.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
-      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyJUnit4Test" />
+      <option name="PACKAGE_NAME" value="com.java.tddTheJava.study" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.study.StudyServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudyServiceTest.createNewStudy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.tddTheJava.*" />
+          <option name="PATTERN" value="com.java.tddTheJava.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
-      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudyTest2.fast_case_with_same_conditions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javadaejang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.tddTheJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
-      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest2" />
-      <option name="METHOD_NAME" value="fast_case_with_same_conditions" />
+      <option name="PACKAGE_NAME" value="com.java.tddTheJava.study" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.study.StudyServiceTest" />
+      <option name="METHOD_NAME" value="createNewStudy(com.java.tddTheJava.member.MemberService,com.java.tddTheJava.study.StudyRepository)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyTest2.slow_case_with_same_conditions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudyServiceTest.createNewStudyWithConscutiveCalls" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.tddTheJava.*" />
+          <option name="PATTERN" value="com.java.tddTheJava.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
-      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.StudyTest2" />
-      <option name="METHOD_NAME" value="slow_case_with_same_conditions" />
+      <option name="PACKAGE_NAME" value="com.java.tddTheJava.study" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.study.StudyServiceTest" />
+      <option name="METHOD_NAME" value="createNewStudyWithConscutiveCalls(com.java.tddTheJava.member.MemberService,com.java.tddTheJava.study.StudyRepository)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyServiceTest.createNewStudyWithStubbing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javadaejang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tddTheJava.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.tddTheJava.study" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.study.StudyServiceTest" />
+      <option name="METHOD_NAME" value="createNewStudyWithStubbing(com.java.tddTheJava.member.MemberService)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyServiceTest.createStudyServiceWithAnnotationParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javadaejang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tddTheJava.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.tddTheJava.study" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.study.StudyServiceTest" />
+      <option name="METHOD_NAME" value="createStudyServiceWithAnnotationParameter(com.java.tddTheJava.member.MemberService,com.java.tddTheJava.study.StudyRepository)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -259,34 +291,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.java.tddTheJava in javadaejang" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javadaejang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.tddTheJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.java.tddTheJava" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.StudyTest2" />
-      <item itemvalue="JUnit.StudyTest2.slow_case_with_same_conditions" />
-      <item itemvalue="JUnit.StudyTest2.fast_case_with_same_conditions" />
-      <item itemvalue="JUnit.StudyJUnit4Test" />
-      <item itemvalue="JUnit.com.java.tddTheJava in javadaejang" />
+      <item itemvalue="JUnit.StudyServiceTest" />
+      <item itemvalue="JUnit.StudyServiceTest.createStudyServiceWithAnnotationParameter" />
+      <item itemvalue="JUnit.StudyServiceTest.createNewStudy" />
+      <item itemvalue="JUnit.StudyServiceTest.createNewStudyWithStubbing" />
+      <item itemvalue="JUnit.StudyServiceTest.createNewStudyWithConscutiveCalls" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.java.tddTheJava in javadaejang" />
-        <item itemvalue="JUnit.StudyJUnit4Test" />
-        <item itemvalue="JUnit.StudyTest2" />
-        <item itemvalue="JUnit.StudyTest2.fast_case_with_same_conditions" />
-        <item itemvalue="JUnit.StudyTest2.slow_case_with_same_conditions" />
+        <item itemvalue="JUnit.StudyServiceTest.createNewStudyWithConscutiveCalls" />
+        <item itemvalue="JUnit.StudyServiceTest" />
+        <item itemvalue="JUnit.StudyServiceTest.createNewStudy" />
+        <item itemvalue="JUnit.StudyServiceTest.createNewStudyWithStubbing" />
+        <item itemvalue="JUnit.StudyServiceTest.createStudyServiceWithAnnotationParameter" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +346,7 @@
       <workItem from="1608869063913" duration="3400000" />
       <workItem from="1608873953961" duration="228000" />
       <workItem from="1608874201972" duration="487000" />
-      <workItem from="1608875191769" duration="11924000" />
+      <workItem from="1608875191769" duration="19368000" />
     </task>
     <servers />
   </component>
@@ -345,10 +363,10 @@
     </state>
     <state x="325" y="198" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/42.23.1638.1027@42.23.1638.1027" timestamp="1608868813631" />
     <state x="609" y="188" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608972106293" />
-    <state x="1091" y="219" key="#com.intellij.ide.util.MemberChooser" timestamp="1608970021517">
+    <state x="1091" y="219" key="#com.intellij.ide.util.MemberChooser" timestamp="1608975658504">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
-    <state x="1091" y="219" key="#com.intellij.ide.util.MemberChooser/44.23.1636.1027@44.23.1636.1027" timestamp="1608970021517" />
+    <state x="1091" y="219" key="#com.intellij.ide.util.MemberChooser/44.23.1636.1027@44.23.1636.1027" timestamp="1608975658504" />
     <state x="977" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608869233326">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
@@ -358,74 +376,86 @@
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state x="372" y="115" key="DiffContextDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608873561788" />
-    <state width="761" height="366" key="GridCell.Tab.0.bottom" timestamp="1608972121677">
+    <state width="761" height="366" key="GridCell.Tab.0.bottom" timestamp="1608981210013">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047736" />
-    <state width="761" height="366" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1608972121677" />
-    <state width="761" height="366" key="GridCell.Tab.0.center" timestamp="1608972121676">
+    <state width="761" height="366" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1608981210013" />
+    <state width="761" height="366" key="GridCell.Tab.0.center" timestamp="1608981210012">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047735" />
-    <state width="761" height="366" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1608972121676" />
-    <state width="761" height="366" key="GridCell.Tab.0.left" timestamp="1608972121676">
+    <state width="761" height="366" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1608981210012" />
+    <state width="761" height="366" key="GridCell.Tab.0.left" timestamp="1608981210011">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047735" />
-    <state width="761" height="366" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1608972121676" />
-    <state width="761" height="366" key="GridCell.Tab.0.right" timestamp="1608972121676">
+    <state width="761" height="366" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1608981210011" />
+    <state width="761" height="366" key="GridCell.Tab.0.right" timestamp="1608981210012">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047736" />
-    <state width="761" height="366" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1608972121676" />
-    <state width="1596" height="312" key="GridCell.Tab.1.bottom" timestamp="1608869047728">
-      <screen x="42" y="23" width="1638" height="1027" />
+    <state width="761" height="366" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1608981210012" />
+    <state width="761" height="312" key="GridCell.Tab.1.bottom" timestamp="1608980719195">
+      <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="312" key="GridCell.Tab.1.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047728" />
-    <state width="1596" height="312" key="GridCell.Tab.1.center" timestamp="1608869047727">
-      <screen x="42" y="23" width="1638" height="1027" />
+    <state width="761" height="312" key="GridCell.Tab.1.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1608980719195" />
+    <state width="761" height="312" key="GridCell.Tab.1.center" timestamp="1608980719194">
+      <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="312" key="GridCell.Tab.1.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047727" />
-    <state width="1596" height="312" key="GridCell.Tab.1.left" timestamp="1608869047727">
-      <screen x="42" y="23" width="1638" height="1027" />
+    <state width="761" height="312" key="GridCell.Tab.1.center/44.23.1636.1027@44.23.1636.1027" timestamp="1608980719194" />
+    <state width="761" height="312" key="GridCell.Tab.1.left" timestamp="1608980719193">
+      <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="312" key="GridCell.Tab.1.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047727" />
-    <state width="1596" height="312" key="GridCell.Tab.1.right" timestamp="1608869047728">
-      <screen x="42" y="23" width="1638" height="1027" />
+    <state width="761" height="312" key="GridCell.Tab.1.left/44.23.1636.1027@44.23.1636.1027" timestamp="1608980719193" />
+    <state width="761" height="312" key="GridCell.Tab.1.right" timestamp="1608980719194">
+      <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="312" key="GridCell.Tab.1.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047728" />
-    <state width="1596" height="312" key="GridCell.Tab.2.bottom" timestamp="1608869047729">
-      <screen x="42" y="23" width="1638" height="1027" />
+    <state width="761" height="312" key="GridCell.Tab.1.right/44.23.1636.1027@44.23.1636.1027" timestamp="1608980719194" />
+    <state width="761" height="312" key="GridCell.Tab.2.bottom" timestamp="1608980719197">
+      <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="312" key="GridCell.Tab.2.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047729" />
-    <state width="1596" height="312" key="GridCell.Tab.2.center" timestamp="1608869047728">
-      <screen x="42" y="23" width="1638" height="1027" />
+    <state width="761" height="312" key="GridCell.Tab.2.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1608980719197" />
+    <state width="761" height="312" key="GridCell.Tab.2.center" timestamp="1608980719196">
+      <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="312" key="GridCell.Tab.2.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047728" />
-    <state width="1596" height="312" key="GridCell.Tab.2.left" timestamp="1608869047728">
-      <screen x="42" y="23" width="1638" height="1027" />
+    <state width="761" height="312" key="GridCell.Tab.2.center/44.23.1636.1027@44.23.1636.1027" timestamp="1608980719196" />
+    <state width="761" height="312" key="GridCell.Tab.2.left" timestamp="1608980719195">
+      <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="312" key="GridCell.Tab.2.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047728" />
-    <state width="1596" height="312" key="GridCell.Tab.2.right" timestamp="1608869047728">
-      <screen x="42" y="23" width="1638" height="1027" />
+    <state width="761" height="312" key="GridCell.Tab.2.left/44.23.1636.1027@44.23.1636.1027" timestamp="1608980719195" />
+    <state width="761" height="312" key="GridCell.Tab.2.right" timestamp="1608980719196">
+      <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="312" key="GridCell.Tab.2.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047728" />
-    <state width="1596" height="312" key="GridCell.Tab.3.bottom" timestamp="1608869047729">
-      <screen x="42" y="23" width="1638" height="1027" />
+    <state width="761" height="312" key="GridCell.Tab.2.right/44.23.1636.1027@44.23.1636.1027" timestamp="1608980719196" />
+    <state width="761" height="312" key="GridCell.Tab.3.bottom" timestamp="1608980719198">
+      <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="312" key="GridCell.Tab.3.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047729" />
-    <state width="1596" height="312" key="GridCell.Tab.3.center" timestamp="1608869047729">
-      <screen x="42" y="23" width="1638" height="1027" />
+    <state width="761" height="312" key="GridCell.Tab.3.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1608980719198" />
+    <state width="761" height="312" key="GridCell.Tab.3.center" timestamp="1608980719197">
+      <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="312" key="GridCell.Tab.3.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047729" />
-    <state width="1596" height="312" key="GridCell.Tab.3.left" timestamp="1608869047729">
-      <screen x="42" y="23" width="1638" height="1027" />
+    <state width="761" height="312" key="GridCell.Tab.3.center/44.23.1636.1027@44.23.1636.1027" timestamp="1608980719197" />
+    <state width="761" height="312" key="GridCell.Tab.3.left" timestamp="1608980719197">
+      <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="312" key="GridCell.Tab.3.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047729" />
-    <state width="1596" height="312" key="GridCell.Tab.3.right" timestamp="1608869047729">
-      <screen x="42" y="23" width="1638" height="1027" />
+    <state width="761" height="312" key="GridCell.Tab.3.left/44.23.1636.1027@44.23.1636.1027" timestamp="1608980719197" />
+    <state width="761" height="312" key="GridCell.Tab.3.right" timestamp="1608980719198">
+      <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="312" key="GridCell.Tab.3.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047729" />
+    <state width="761" height="312" key="GridCell.Tab.3.right/44.23.1636.1027@44.23.1636.1027" timestamp="1608980719198" />
     <state x="756" y="198" key="Maven.ArtifactSearchDialog" timestamp="1608877766698">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
@@ -434,19 +464,19 @@
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state x="671" y="162" key="RollbackChangesDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608869214702" />
-    <state x="656" y="118" key="SettingsEditor" timestamp="1608902647230">
+    <state x="656" y="118" key="SettingsEditor" timestamp="1608975867157">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
-    <state x="656" y="118" key="SettingsEditor/44.23.1636.1027@44.23.1636.1027" timestamp="1608902647230" />
+    <state x="656" y="118" key="SettingsEditor/44.23.1636.1027@44.23.1636.1027" timestamp="1608975867157" />
     <state x="878" y="272" key="Vcs.Push.Dialog.v2" timestamp="1608873562569">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state x="878" y="272" key="Vcs.Push.Dialog.v2/44.23.1636.1027@44.23.1636.1027" timestamp="1608873562569" />
-    <state x="1018" y="350" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608869523157">
+    <state x="1018" y="350" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608976522343">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state x="1017" y="350" key="com.intellij.testIntegration.createTest.CreateTestDialog/42.23.1638.1027@42.23.1638.1027" timestamp="1608867665922" />
-    <state x="1018" y="350" key="com.intellij.testIntegration.createTest.CreateTestDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608869523157" />
+    <state x="1018" y="350" key="com.intellij.testIntegration.createTest.CreateTestDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608976522343" />
     <state x="641" y="333" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1608869471767">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
@@ -494,20 +524,12 @@
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="f.getAnnotation(Inject.class)" language="JAVA" />
+        <watch expression="memberService.findById(1L)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>f.getAnnotation(Inject.class)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>
