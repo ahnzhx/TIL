@@ -14,7 +14,11 @@ import org.junit.jupiter.params.provider.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+// order 애너테이션을 가지고 순서를 정해준다
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class StudyTest2 {
+
+    int value = 1;
 
     @FastTest
     void fast_case_with_same_conditions(){
@@ -27,19 +31,23 @@ public class StudyTest2 {
         System.out.println("slow");
     }
 
+    @Order(2)
     @DisplayName("스터디 만들기")
     @RepeatedTest(value = 10, name= "{displayName}, {currentRepetition}/{totalRepetitions}")
     void create_study(RepetitionInfo repetitionInfo) {
         System.out.println("test:" + repetitionInfo.getCurrentRepetition() + "/" +
                 repetitionInfo.getTotalRepetitions());
+        System.out.println(value++);
     }
 
+    @Order(1)
     @DisplayName("스터디 만들기")
     // messsage: 메쏘드의 첫번째 파라미터
     @ParameterizedTest(name="{index} {displayName} message={0}")
     @ValueSource(strings = {"날씨가", "많이", "추워지고", "있네요"})
     void parameterizedTest(String message){
         System.out.println(message);
+        System.out.println(value++);
     }
 
     @DisplayName("스터디 만들기")
