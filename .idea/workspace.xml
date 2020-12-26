@@ -6,11 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/member/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/member/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/domain/Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/domain/Study.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/study/StudyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/study/StudyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/study/StudyStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/study/StudyStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/study/StudyServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/study/StudyServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tddTheJava/member/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/tddTheJava/member/MemberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tddTheJava/domain/Study.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/tddTheJava/domain/Study.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/java/tddTheJava/study/StudyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/tddTheJava/study/StudyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tddTheJava/study/StudyStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/tddTheJava/study/StudyStatus.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +107,7 @@
       <recent name="com.java.inflearnJava.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudyServiceTest.stubbingTest">
+  <component name="RunManager" selected="JUnit.StudyServiceTest.openStudy">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,7 +226,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyServiceTest.createNewStudyWithStubbing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudyServiceTest.openStudy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
@@ -234,7 +236,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.java.tddTheJava.study" />
       <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.study.StudyServiceTest" />
-      <option name="METHOD_NAME" value="createNewStudyWithStubbing(com.java.tddTheJava.member.MemberService)" />
+      <option name="METHOD_NAME" value="openStudy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -278,17 +280,17 @@
     <list>
       <item itemvalue="JUnit.StudyServiceTest" />
       <item itemvalue="JUnit.StudyServiceTest.createNewStudy" />
-      <item itemvalue="JUnit.StudyServiceTest.createNewStudyWithStubbing" />
       <item itemvalue="JUnit.StudyServiceTest.createNewStudyWithConscutiveCalls" />
       <item itemvalue="JUnit.StudyServiceTest.stubbingTest" />
+      <item itemvalue="JUnit.StudyServiceTest.openStudy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudyServiceTest.openStudy" />
         <item itemvalue="JUnit.StudyServiceTest.stubbingTest" />
         <item itemvalue="JUnit.StudyServiceTest.createNewStudyWithConscutiveCalls" />
         <item itemvalue="JUnit.StudyServiceTest" />
         <item itemvalue="JUnit.StudyServiceTest.createNewStudy" />
-        <item itemvalue="JUnit.StudyServiceTest.createNewStudyWithStubbing" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +332,7 @@
       <workItem from="1608869063913" duration="3400000" />
       <workItem from="1608873953961" duration="228000" />
       <workItem from="1608874201972" duration="487000" />
-      <workItem from="1608875191769" duration="21182000" />
+      <workItem from="1608875191769" duration="23044000" />
     </task>
     <servers />
   </component>
@@ -360,26 +362,26 @@
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state x="372" y="115" key="DiffContextDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608873561788" />
-    <state width="761" height="366" key="GridCell.Tab.0.bottom" timestamp="1608982986910">
+    <state width="761" height="366" key="GridCell.Tab.0.bottom" timestamp="1608992410047">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047736" />
-    <state width="761" height="366" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1608982986910" />
-    <state width="761" height="366" key="GridCell.Tab.0.center" timestamp="1608982986909">
+    <state width="761" height="366" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1608992410047" />
+    <state width="761" height="366" key="GridCell.Tab.0.center" timestamp="1608992410046">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047735" />
-    <state width="761" height="366" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1608982986909" />
-    <state width="761" height="366" key="GridCell.Tab.0.left" timestamp="1608982986908">
+    <state width="761" height="366" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1608992410046" />
+    <state width="761" height="366" key="GridCell.Tab.0.left" timestamp="1608992410045">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047735" />
-    <state width="761" height="366" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1608982986908" />
-    <state width="761" height="366" key="GridCell.Tab.0.right" timestamp="1608982986909">
+    <state width="761" height="366" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1608992410045" />
+    <state width="761" height="366" key="GridCell.Tab.0.right" timestamp="1608992410046">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state width="1596" height="366" key="GridCell.Tab.0.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047736" />
-    <state width="761" height="366" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1608982986909" />
+    <state width="761" height="366" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1608992410046" />
     <state width="761" height="312" key="GridCell.Tab.1.bottom" timestamp="1608980719195">
       <screen x="44" y="23" width="1636" height="1027" />
     </state>

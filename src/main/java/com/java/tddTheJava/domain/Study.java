@@ -59,4 +59,9 @@ public class Study {
         return name;
     }
 
+    public void open(){
+        this.status = StudyStatus.OPENED;
+        this.openedDateTime = LocalDateTime.now();
+    }
+
 }

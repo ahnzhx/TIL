@@ -14,6 +14,8 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.*;
+import static org.mockito.BDDMockito.given;
+import static org.mockito.BDDMockito.then;
 import static org.mockito.Mockito.*;
 
 // @Mock 을 사용하여 mock 객체들을 만들어 줄 수 있다.
@@ -97,6 +99,7 @@ class StudyServiceTest {
      */
     @Test
     void stubbingTest(){
+        //given
         Study study = new Study(10, "테스트");
         StudyService studyService = new StudyService(memberService, studyRepository);
 
@@ -113,8 +116,14 @@ class StudyServiceTest {
         when(studyRepository.save(any(Study.class))).thenReturn(study);
         studyService.createNewStudy(1L, study);
 
-        assertNotNull(study.getOwner());
 
+        // when -> given 으로 변경 (BDD)
+        given(memberService.findById(1L)).willReturn(Optional.of(member));
+        given(studyRepository.save(study)).willReturn(study);
+
+        // then
+        then(memberService).should().notify(study);
+        assertNotNull(study.getOwner());
         assertEquals(member, study.getOwner());
 
         // memberService 에서 notify 메서드가 몇번 호출되었는지 확인
@@ -129,5 +138,24 @@ class StudyServiceTest {
 
         // memberService 가 호출된 이후 연결이 끊겼는지 확인
 //        verifyNoInteractions(memberService);
+      //then(memberService).shouldHaveNoMoreInteractions();
     }
+
+    @DisplayName("다른 사용자가 볼 수 있도록 스터디를 공개한다.")
+    @Test
+    void openStudy() {
+        // Given
+        StudyService studyService = new StudyService(memberService, studyRepository);
+        Study study = new Study(10, "더 자바, 테스트");
+        given(studyRepository.save(any())).willReturn(study);
+
+        // When
+        studyService.openStudy(study);
+
+        // Then
+        assertEquals(StudyStatus.OPENED, study.getStatus());
+        assertNotNull(study.getOpenedDateTime());
+        then(memberService).should().notify(study);
+    }
+
 }
