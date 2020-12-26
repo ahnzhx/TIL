@@ -1,7 +1,9 @@
 package com.java.tddTheJava;
 
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.api.extension.ParameterContext;
+import org.junit.jupiter.api.extension.RegisterExtension;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.aggregator.AggregateWith;
 import org.junit.jupiter.params.aggregator.ArgumentsAccessor;
@@ -14,24 +16,32 @@ import org.junit.jupiter.params.provider.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+// @ExtendWith(FindSlowTestExtension.class)
 // order 애너테이션을 가지고 순서를 정해준다
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class StudyTest2 {
 
     int value = 1;
 
+    @RegisterExtension
+    static FindSlowTestExtension findSlowTestExtension =
+            new FindSlowTestExtension(1000L);
+
+
     @FastTest
     void fast_case_with_same_conditions(){
         System.out.println("fast");
     }
 
-    @Test
+    @Order(1)
+    @SlowTest
     @Tag("slow")
-    void slow_case_with_same_conditions(){
+    void slow_case_with_same_conditions() throws InterruptedException {
+        Thread.sleep(1005L);
         System.out.println("slow");
     }
 
-    @Order(2)
+    @Order(3)
     @DisplayName("스터디 만들기")
     @RepeatedTest(value = 10, name= "{displayName}, {currentRepetition}/{totalRepetitions}")
     void create_study(RepetitionInfo repetitionInfo) {
@@ -40,7 +50,7 @@ public class StudyTest2 {
         System.out.println(value++);
     }
 
-    @Order(1)
+    @Order(2)
     @DisplayName("스터디 만들기")
     // messsage: 메쏘드의 첫번째 파라미터
     @ParameterizedTest(name="{index} {displayName} message={0}")
