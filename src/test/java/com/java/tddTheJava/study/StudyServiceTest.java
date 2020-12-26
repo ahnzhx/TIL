@@ -6,16 +6,15 @@ import com.java.tddTheJava.member.MemberService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InOrder;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyLong;
-import static org.mockito.Mockito.doThrow;
-import static org.mockito.Mockito.when;
+import static org.mockito.ArgumentMatchers.*;
+import static org.mockito.Mockito.*;
 
 // @Mock 을 사용하여 mock 객체들을 만들어 줄 수 있다.
 @ExtendWith(MockitoExtension.class)
@@ -91,5 +90,44 @@ class StudyServiceTest {
         });
         assertTrue(memberService.findById(1L).isEmpty());
 
+    }
+
+    /**
+     * test for stubbing mock object
+     */
+    @Test
+    void stubbingTest(){
+        Study study = new Study(10, "테스트");
+        StudyService studyService = new StudyService(memberService, studyRepository);
+
+        // memberService 객체에 findById 메소드를 1L 값으로 호출하면 Optional.of(member) 객체를 리턴하도록 Stubbing
+        Member member = new Member();
+        member.setId(10L);
+        member.setEmail("sonnie@email.com");
+        when(memberService.findById(1L)).thenReturn(Optional.of(member));
+
+        assertEquals(member, memberService.findById(1L).get());
+
+        // studyRepository 객체에 save 메소드를 study 객체로 호출하면 study 객체 그대로 리턴하도록 Stubbing
+        study.setOwner(member);
+        when(studyRepository.save(any(Study.class))).thenReturn(study);
+        studyService.createNewStudy(1L, study);
+
+        assertNotNull(study.getOwner());
+
+        assertEquals(member, study.getOwner());
+
+        // memberService 에서 notify 메서드가 몇번 호출되었는지 확인
+        verify(memberService, times(1)).notify(study);
+        verify(memberService, times(1)).notify(member);
+        verify(memberService, never()).validate(1L);
+
+        // 호출된 순서 테스트하기
+        InOrder inOrder = inOrder(memberService);
+        inOrder.verify(memberService).notify(study);
+        inOrder.verify(memberService).notify(member);
+
+        // memberService 가 호출된 이후 연결이 끊겼는지 확인
+//        verifyNoInteractions(memberService);
     }
 }
