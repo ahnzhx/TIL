@@ -9,6 +9,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InOrder;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.test.context.ActiveProfiles;
 
 import java.util.Optional;
 
@@ -118,8 +119,8 @@ class StudyServiceTest {
 
 
         // when -> given 으로 변경 (BDD)
-        given(memberService.findById(1L)).willReturn(Optional.of(member));
-        given(studyRepository.save(study)).willReturn(study);
+//        given(memberService.findById(1L)).willReturn(Optional.of(member));
+//        given(studyRepository.save(study)).willReturn(study);
 
         // then
         then(memberService).should().notify(study);

@@ -3,11 +3,13 @@ package com.java.tddTheJava.domain;
 import com.java.tddTheJava.study.StudyStatus;
 import lombok.Data;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Transient;
 import java.time.LocalDateTime;
 
-@Data
+@Data @Entity
 public class Study {
 
     @Id @GeneratedValue
@@ -21,7 +23,9 @@ public class Study {
 
     private LocalDateTime openedDateTime;
 
+    @Transient
     private Member owner;
+
 
     public Study(int limit, String name) {
         this.limit = limit;
