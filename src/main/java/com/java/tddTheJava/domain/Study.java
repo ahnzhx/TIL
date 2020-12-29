@@ -3,10 +3,7 @@ package com.java.tddTheJava.domain;
 import com.java.tddTheJava.study.StudyStatus;
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Transient;
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Data @Entity

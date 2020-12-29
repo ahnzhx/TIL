@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "POSTGRES_HOST_AUTH_METHOD",
+      "type": "java.lang.String",
+      "description": "Description for POSTGRES_HOST_AUTH_METHOD."
+    }
+  ] }
