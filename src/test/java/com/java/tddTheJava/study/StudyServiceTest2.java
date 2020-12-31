@@ -9,6 +9,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.util.TestPropertyValues;
 import org.springframework.context.ApplicationContextInitializer;
@@ -17,6 +18,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.testcontainers.containers.GenericContainer;
+import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 
 @SpringBootTest
@@ -33,19 +35,20 @@ public class StudyServiceTest2 {
     @Autowired
     StudyRepository studyRepository;
 
-    @Autowired
-    Environment environment;
+//    @Autowired
+//    Environment environment;
 
-//    @Value("${container.port}")
-//    int port;
+    @Value("${container.port}")
+    int port;
 
     // 이렇게 만들면 테스트마다 컨테이너를 만든다. static 을 붙여줘야 함
 //    static PostgreSQLContainer postgreSQLContainer = new PostgreSQLContainer().withDatabaseName("studyTest");
 
+    @Container
     static GenericContainer postgreSQLContainer = new GenericContainer("postgres")
             .withExposedPorts(5432)
-            .withEnv("POSTGRES_PASSWORD", "studytest");
-//            .withEnv("POSTGRES_DB", "studyTest");
+            .withEnv("POSTGRES_PASSWORD", "studytest")
+            .withEnv("POSTGRES_DB", "studyTest");
 
 //    @Container
 //    static PostgreSQLContainer postgreSQLContainer = new PostgreSQLContainer().withDatabaseName("studyTest");
@@ -54,7 +57,7 @@ public class StudyServiceTest2 {
     void beforeEach(){
         System.out.println("//////////////////////");
 //        System.out.println(postgreSQLContainer.getMappedPort(5432));
-        System.out.println(environment.getProperty("container.port"));
+//        System.out.println(environment.getProperty("container.port"));
 //        System.out.println(port);
 //        studyRepository.deleteAll();
     }

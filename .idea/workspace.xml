@@ -5,34 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4c9d880-885e-4cc0-8e00-4fe808ccb76d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_zerodep_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_kohlschutter_junixsocket_junixsocket_common_2_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_kohlschutter_junixsocket_junixsocket_native_common_2_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_5_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_rnorth_tcp_unix_socket_proxy_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scijava_native_lib_loader_2_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_testcontainers_1_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_testcontainers_1_15_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_2_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_2_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_zerodep_3_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_zerodep_3_2_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_database_commons_1_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_database_commons_1_15_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_jdbc_1_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_jdbc_1_15_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_postgresql_1_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_postgresql_1_15_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_testcontainers_1_15_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_testcontainers_1_15_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javadaejang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javadaejang.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/domain/Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java/tddTheJava/domain/Study.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/study/StudyServiceTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/java/tddTheJava/study/StudyServiceTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java/tddTheJava/domain/Study.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/java/tddTheJava/domain/Study.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/study/StudyServiceTest2$ContainerPropertyInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/study/StudyServiceTest2$ContainerPropertyInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/study/StudyServiceTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/java/tddTheJava/study/StudyServiceTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/junit-platform.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/junit-platform.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +113,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudyServiceTest2">
+  <component name="RunManager" selected="JUnit.StudyServiceTest2 (2)">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,13 +172,15 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,6 +201,21 @@
       </method>
     </configuration>
     <configuration name="StudyServiceTest2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javadaejang" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.tddTheJava.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.tddTheJava.study" />
+      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.study.StudyServiceTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyServiceTest2 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javadaejang" />
       <extension name="coverage">
         <pattern>
@@ -259,22 +261,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyServiceTest.openStudy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javadaejang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.tddTheJava.study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.java.tddTheJava.study" />
-      <option name="MAIN_CLASS_NAME" value="com.java.tddTheJava.study.StudyServiceTest" />
-      <option name="METHOD_NAME" value="openStudy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="javadaejang" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.tddTheJava.Application" />
@@ -284,19 +270,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.StudyServiceTest" />
-      <item itemvalue="JUnit.StudyServiceTest.openStudy" />
       <item itemvalue="JUnit.StudyServiceTest2" />
       <item itemvalue="JUnit.StudyServiceTest2.createNewStudy" />
       <item itemvalue="JUnit.StudyServiceTest2 (1)" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="JUnit.StudyServiceTest2 (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudyServiceTest2 (2)" />
         <item itemvalue="JUnit.StudyServiceTest2" />
         <item itemvalue="JUnit.StudyServiceTest2.createNewStudy" />
         <item itemvalue="JUnit.StudyServiceTest2 (1)" />
         <item itemvalue="JUnit.StudyServiceTest" />
-        <item itemvalue="JUnit.StudyServiceTest.openStudy" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +326,8 @@
       <workItem from="1608874201972" duration="487000" />
       <workItem from="1608875191769" duration="26745000" />
       <workItem from="1609054614738" duration="10000" />
-      <workItem from="1609157243122" duration="11561000" />
+      <workItem from="1609157243122" duration="12245000" />
+      <workItem from="1609369948131" duration="1388000" />
     </task>
     <servers />
   </component>
@@ -376,35 +363,35 @@
       <screen x="44" y="23" width="1636" height="1027" />
     </state>
     <state x="372" y="115" key="DiffContextDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1608873561788" />
-    <state width="878" height="366" key="GridCell.Tab.0.bottom" timestamp="1609252013334">
+    <state width="878" height="366" key="GridCell.Tab.0.bottom" timestamp="1609371907979">
       <screen x="45" y="23" width="1875" height="1057" />
     </state>
     <state width="1638" height="366" key="GridCell.Tab.0.bottom/1920.23.1680.1027/45.23.1875.1057@1920.23.1680.1027" timestamp="1609162868594" />
-    <state width="878" height="366" key="GridCell.Tab.0.bottom/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1609252013334" />
+    <state width="878" height="366" key="GridCell.Tab.0.bottom/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1609371907979" />
     <state width="1596" height="366" key="GridCell.Tab.0.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047736" />
     <state width="718" height="312" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1609054589507" />
     <state width="787" height="366" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1609166657364" />
-    <state width="878" height="366" key="GridCell.Tab.0.center" timestamp="1609252013333">
+    <state width="878" height="366" key="GridCell.Tab.0.center" timestamp="1609371907978">
       <screen x="45" y="23" width="1875" height="1057" />
     </state>
     <state width="1638" height="366" key="GridCell.Tab.0.center/1920.23.1680.1027/45.23.1875.1057@1920.23.1680.1027" timestamp="1609162868593" />
-    <state width="878" height="366" key="GridCell.Tab.0.center/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1609252013333" />
+    <state width="878" height="366" key="GridCell.Tab.0.center/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1609371907978" />
     <state width="1596" height="366" key="GridCell.Tab.0.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047735" />
     <state width="718" height="312" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1609054589507" />
     <state width="787" height="366" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1609166657364" />
-    <state width="878" height="366" key="GridCell.Tab.0.left" timestamp="1609252013332">
+    <state width="878" height="366" key="GridCell.Tab.0.left" timestamp="1609371907977">
       <screen x="45" y="23" width="1875" height="1057" />
     </state>
     <state width="1638" height="366" key="GridCell.Tab.0.left/1920.23.1680.1027/45.23.1875.1057@1920.23.1680.1027" timestamp="1609162868593" />
-    <state width="878" height="366" key="GridCell.Tab.0.left/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1609252013332" />
+    <state width="878" height="366" key="GridCell.Tab.0.left/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1609371907977" />
     <state width="1596" height="366" key="GridCell.Tab.0.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047735" />
     <state width="718" height="312" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1609054589507" />
     <state width="787" height="366" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1609166657363" />
-    <state width="878" height="366" key="GridCell.Tab.0.right" timestamp="1609252013333">
+    <state width="878" height="366" key="GridCell.Tab.0.right" timestamp="1609371907979">
       <screen x="45" y="23" width="1875" height="1057" />
     </state>
     <state width="1638" height="366" key="GridCell.Tab.0.right/1920.23.1680.1027/45.23.1875.1057@1920.23.1680.1027" timestamp="1609162868594" />
-    <state width="878" height="366" key="GridCell.Tab.0.right/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1609252013333" />
+    <state width="878" height="366" key="GridCell.Tab.0.right/1920.23.1680.1027/45.23.1875.1057@45.23.1875.1057" timestamp="1609371907979" />
     <state width="1596" height="366" key="GridCell.Tab.0.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608869047736" />
     <state width="718" height="312" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1609054589507" />
     <state width="787" height="366" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1609166657364" />
