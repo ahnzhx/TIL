@@ -51,7 +51,7 @@ public class StudyServiceTest2 {
     @BeforeEach
     void beforeEach(){
         System.out.println("//////////////////////");
-//        System.out.println(postgreSQLContainer.getMappedPort(5432));
+//        System.out.println(posㄲtgreSQLContainer.getMappedPort(5432));
 //        System.out.println(environment.getProperty("container.port"));
 //        System.out.println(port);
 //        studyRepository.deleteAll();
