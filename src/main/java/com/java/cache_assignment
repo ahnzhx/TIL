@@ -1,0 +1,11 @@
+# caching
+
+the allocation of requested block X is actually a two-step process.
+the two steps must be performed in the following order
+
+1. make space for the requested block x. if all blocks in the set are valid, then a victim block V must be singled out
+for eviction, according to the replacement policy. 
+if this victim block V is dirty, then a write of the victim block V must be issued to the next level of the memory hierarchy.
+
+2. bring in the requested block X. Issue a read of the requested block x to the next level of the memory hierarchy
+and put the requested block X in the appropriate place in the set (as per step 1). 
